@@ -1,18 +1,19 @@
 <script lang="ts">
   import { onMount, afterUpdate, onDestroy } from 'svelte';
   import * as d3 from 'd3';
-  import { Node, Link, IVisualizationData } from '$lib/types';
-  import { createSimulation, type SimulationConfig } from '$lib/utils/simulation';
+  import { TopicNode, DocumentNode, Link, VisualizationData, VisualizationConfig, ZoomConfig } from '$lib/models';
+  import type { ITopicNode, IDocumentNode } from '$lib/types';
+  import { createSimulation } from '$lib/utils/simulation';
   import { renderVisualization, setupZoom, createDragBehavior } from '$lib/utils/visualization';
 
-  export let data: IVisualizationData;
-  export let config: SimulationConfig;
-  export let zoomConfig: { minZoom: number; maxZoom: number };
+  export let data: VisualizationData;
+  export let config: VisualizationConfig;
+  export let zoomConfig: ZoomConfig;
   export let filteredLinks: Link[];
-  export let onNodeHover: (event: MouseEvent, node: Node | null) => void;
+  export let onNodeHover: (event: MouseEvent, node: ITopicNode | IDocumentNode | null) => void;
   export let svg: SVGSVGElement | undefined = undefined;
 
-  let simulation: d3.Simulation<Node, Link>;
+  let simulation: d3.Simulation<TopicNode | DocumentNode, Link>;
 
   function createVisualization() {
     if (!svg || !data) return;
@@ -39,7 +40,7 @@
       filteredLinks,
       config,
       {
-        onNodeMouseOver: (event: MouseEvent, d: Node) => onNodeHover(event, d),
+        onNodeMouseOver: (event: MouseEvent, d: TopicNode | DocumentNode) => onNodeHover(event, d),
         onNodeMouseMove: (event: MouseEvent) => onNodeHover(event, null),
         onNodeMouseOut: (event: MouseEvent) => onNodeHover(event, null)
       }
@@ -51,10 +52,10 @@
     // Update positions on each tick
     simulation.on('tick', () => {
       link
-        .attr('x1', d => (d.source as Node).x ?? 0)
-        .attr('y1', d => (d.source as Node).y ?? 0)
-        .attr('x2', d => (d.target as Node).x ?? 0)
-        .attr('y2', d => (d.target as Node).y ?? 0);
+        .attr('x1', d => (d.source as TopicNode | DocumentNode).x ?? 0)
+        .attr('y1', d => (d.source as TopicNode | DocumentNode).y ?? 0)
+        .attr('x2', d => (d.target as TopicNode | DocumentNode).x ?? 0)
+        .attr('y2', d => (d.target as TopicNode | DocumentNode).y ?? 0);
 
       node
         .attr('cx', d => d.x ?? 0)

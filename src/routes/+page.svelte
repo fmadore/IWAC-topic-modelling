@@ -4,9 +4,9 @@
   import * as d3 from 'd3';
   import TopicVisualization from '$lib/components/TopicVisualization.svelte';
   import { processData } from '$lib/utils/dataProcessing';
-  import { IVisualizationData } from '$lib/types';
+  import { VisualizationData } from '$lib/models';
 
-  let data: IVisualizationData | null = null;
+  let data: VisualizationData | null = null;
 
   onMount(async () => {
     const response = await fetch(`${base}/topic_modeling_results.json`);

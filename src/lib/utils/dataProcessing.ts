@@ -1,5 +1,5 @@
 import { VisualizationData } from '../types';
-import type { Node, Link, IVisualizationData } from '../types';
+import type { Node, ILink, IVisualizationData } from '../types';
 
 interface RawData {
     topics: Array<{
@@ -36,14 +36,16 @@ export function processData(data: RawData): IVisualizationData {
         }))
     ];
     
-    // Create links with the new ID format
-    const links: Link[] = [];
+    // Create links with the new ID format using actual topic IDs
+    const links: ILink[] = [];
     data.documents.forEach(doc => {
-        doc.topic_weights.forEach((weight, topicIdx) => {
-            if (weight > 0.2) { // Initial threshold
+        // Loop over topic weights with index "idx"
+        doc.topic_weights.forEach((weight, idx) => {
+            if (weight > 0.2) { // Initial threshold - only create link if weight is high enough
                 links.push({
-                    source: `t${topicIdx}`, // Reference topic ID
-                    target: `d${doc.id}`,   // Reference document ID
+                    // Use the topic's actual id from the topics array instead of the loop index
+                    source: `t${data.topics[idx].id}`,
+                    target: `d${doc.id}`,
                     weight: weight
                 });
             }

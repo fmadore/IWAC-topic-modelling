@@ -1,4 +1,4 @@
-import type { Node, Link } from '../types';
+import type { Node, ILink } from '../types';
 import type { SimulationConfig } from './simulation';
 import * as d3 from 'd3';
 
@@ -11,7 +11,7 @@ export interface VisualizationHandlers {
 export function renderVisualization(
   container: SVGGElement,
   nodes: Node[],
-  links: Link[],
+  links: ILink[],
   config: SimulationConfig,
   handlers: VisualizationHandlers
 ) {
@@ -54,7 +54,7 @@ export function setupZoom(
   return zoom;
 }
 
-export function createDragBehavior(simulation: d3.Simulation<Node, Link>) {
+export function createDragBehavior(simulation: d3.Simulation<Node, ILink>) {
   return d3.drag<SVGCircleElement, Node>()
     .on('start', (event) => {
       if (!event.active) simulation.alphaTarget(0.3).restart();

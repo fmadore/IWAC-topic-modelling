@@ -1,4 +1,4 @@
-import type { Node, Link } from '../types';
+import type { Node, ILink } from '../types';
 import * as d3 from 'd3';
 
 export interface SimulationConfig {
@@ -43,11 +43,11 @@ export const defaultConfig: SimulationConfig = {
 
 export function createSimulation(
   nodes: Node[],
-  links: Link[],
+  links: ILink[],
   config: SimulationConfig = defaultConfig
-): d3.Simulation<Node, Link> {
+): d3.Simulation<Node, ILink> {
   return d3.forceSimulation<Node>(nodes)
-    .force('link', d3.forceLink<Node, Link>(links)
+    .force('link', d3.forceLink<Node, ILink>(links)
       .id(d => d.nodeId)
       .strength(d => d.weight * config.forces.link.strength))
     .force('charge', d3.forceManyBody().strength(config.forces.charge.strength))

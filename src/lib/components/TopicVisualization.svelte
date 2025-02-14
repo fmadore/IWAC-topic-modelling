@@ -1,32 +1,29 @@
 <script lang="ts">
   import * as d3 from 'd3';
-  import { Node, Link, IVisualizationData } from '$lib/types';
-  import { defaultConfig, type SimulationConfig } from '$lib/utils/simulation';
+  import { TopicNode, DocumentNode, Link, VisualizationData, VisualizationConfig, ZoomConfig } from '$lib/models';
+  import type { ITopicNode, IDocumentNode } from '$lib/types';
+  import { defaultConfig } from '$lib/utils/simulation';
   import Tooltip from './Tooltip.svelte';
   import VisualizationControls from './VisualizationControls.svelte';
   import VisualizationGraph from './VisualizationGraph.svelte';
 
-  export let data: IVisualizationData;
+  export let data: VisualizationData;
   
   let threshold = 0.2;
   let svg: SVGSVGElement;
   
   // Tooltip state
-  let tooltipData: Node | null = null;
+  let tooltipData: ITopicNode | IDocumentNode | null = null;
   let tooltipX = 0;
   let tooltipY = 0;
   let tooltipVisible = false;
   
-  const config: SimulationConfig = {
-    ...defaultConfig,
+  const config = new VisualizationConfig({
     width: 1100,
     height: 800
-  };
+  });
 
-  const zoomConfig = {
-    minZoom: 0.1,
-    maxZoom: 4
-  };
+  const zoomConfig = new ZoomConfig();
 
   $: filteredLinks = data.links.filter(l => l.weight > threshold);
 
@@ -34,7 +31,7 @@
     threshold = value;
   }
 
-  function handleNodeHover(event: MouseEvent, node: Node | null) {
+  function handleNodeHover(event: MouseEvent, node: ITopicNode | IDocumentNode | null) {
     if (node) {
       tooltipData = node;
       tooltipX = event.pageX;
