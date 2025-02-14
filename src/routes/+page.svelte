@@ -1,17 +1,21 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
-  import * as d3 from 'd3';
   import TopicVisualization from '$lib/components/TopicVisualization.svelte';
+  import TopicSidebar from '$lib/components/TopicSidebar.svelte';
   import { processData } from '$lib/utils/dataProcessing';
   import { VisualizationData } from '$lib/models';
 
   let data: VisualizationData | null = null;
+  let topics: Array<{ id: number, label: string, words: string[] }> = [];
 
   onMount(async () => {
     const response = await fetch(`${base}/topic_modeling_results.json`);
     const rawData = await response.json();
     data = processData(rawData);
+    if (data) {
+      topics = data.nodes.filter(node => node.type === 'topic');
+    }
   });
 </script>
 
@@ -25,7 +29,14 @@
 <div class="container">
   <h1>Topic Model Visualization</h1>
   {#if data}
-    <TopicVisualization {data} />
+    <div class="dashboard-wrapper">
+      <div class="sidebar-container">
+        <TopicSidebar {topics} />
+      </div>
+      <div class="visualization-container">
+        <TopicVisualization {data} />
+      </div>
+    </div>
   {:else}
     <div class="loading">Loading visualization...</div>
   {/if}
@@ -47,6 +58,19 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+  }
+
+  .dashboard-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .sidebar-container {
+    flex: 0 0 250px;
+  }
+
+  .visualization-container {
+    flex: 1;
   }
 
   h1 {
