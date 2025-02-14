@@ -1,11 +1,12 @@
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import { base } from '$app/paths';
   import * as d3 from 'd3';
   import TopicVisualization from '$lib/components/TopicVisualization.svelte';
   import { processData } from '$lib/utils/dataProcessing';
+  import { IVisualizationData } from '$lib/types';
 
-  let data = null;
+  let data: IVisualizationData | null = null;
 
   onMount(async () => {
     const response = await fetch(`${base}/topic_modeling_results.json`);
@@ -17,7 +18,7 @@
 <svelte:head>
   <title>Topic Model Visualization</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </svelte:head>
 

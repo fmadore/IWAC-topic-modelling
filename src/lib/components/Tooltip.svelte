@@ -1,5 +1,5 @@
-<script>
-  export let data = null;
+<script lang="ts">
+  export let data: any = null;
   export let x = 0;
   export let y = 0;
   export let visible = false;
