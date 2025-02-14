@@ -41,8 +41,8 @@
       config,
       {
         onNodeMouseOver: (event: MouseEvent, d: TopicNode | DocumentNode) => onNodeHover(event, d),
-        onNodeMouseMove: (event: MouseEvent) => onNodeHover(event, null),
-        onNodeMouseOut: (event: MouseEvent) => onNodeHover(event, null)
+        onNodeMouseMove: (event: MouseEvent, d: TopicNode | DocumentNode) => onNodeHover(event, d),
+        onNodeMouseOut: (event, _d) => onNodeHover(event, null)
       }
     );
 

@@ -3,9 +3,9 @@ import type { SimulationConfig } from './simulation';
 import * as d3 from 'd3';
 
 export interface VisualizationHandlers {
-  onNodeMouseOver: (event: MouseEvent, node: Node) => void;
-  onNodeMouseMove: (event: MouseEvent) => void;
-  onNodeMouseOut: (event: MouseEvent) => void;
+  onNodeMouseOver: (event: MouseEvent, node: Node, ...args: any[]) => void;
+  onNodeMouseMove: (event: MouseEvent, node: Node, ...args: any[]) => void;
+  onNodeMouseOut: (event: MouseEvent, node: Node | null, ...args: any[]) => void;
 }
 
 export function renderVisualization(
@@ -31,10 +31,10 @@ export function renderVisualization(
     .attr('class', d => `node node-${d.type}`)
     .attr('r', d => d.type === 'topic' ? config.nodeRadius.topic : config.nodeRadius.document);
 
-  // Add event handlers using non-bubbling events for immediate hover response
-  node.on('mouseenter', handlers.onNodeMouseOver)
+  // Add event handlers using bubbling events for immediate hover response
+  node.on('mouseover', handlers.onNodeMouseOver)
      .on('mousemove', handlers.onNodeMouseMove)
-     .on('mouseleave', handlers.onNodeMouseOut);
+     .on('mouseout', handlers.onNodeMouseOut);
 
   return { node, link };
 }
