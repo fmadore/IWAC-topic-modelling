@@ -40,6 +40,8 @@ declare module '$env/static/private' {
 	export const DriverData: string;
 	export const EDITOR: string;
 	export const EFC_1804: string;
+	export const FPS_BROWSER_APP_PROFILE_STRING: string;
+	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GHOSTSCRIPT_PATH: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
@@ -152,6 +154,8 @@ declare module '$env/dynamic/private' {
 		DriverData: string;
 		EDITOR: string;
 		EFC_1804: string;
+		FPS_BROWSER_APP_PROFILE_STRING: string;
+		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GHOSTSCRIPT_PATH: string;
 		GIT_ASKPASS: string;
 		HOME: string;
