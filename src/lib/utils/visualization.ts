@@ -31,10 +31,10 @@ export function renderVisualization(
     .attr('class', d => `node node-${d.type}`)
     .attr('r', d => d.type === 'topic' ? config.nodeRadius.topic : config.nodeRadius.document);
 
-  // Add event handlers
-  node.on('mouseover', handlers.onNodeMouseOver)
+  // Add event handlers using non-bubbling events for immediate hover response
+  node.on('mouseenter', handlers.onNodeMouseOver)
      .on('mousemove', handlers.onNodeMouseMove)
-     .on('mouseout', handlers.onNodeMouseOut);
+     .on('mouseleave', handlers.onNodeMouseOut);
 
   return { node, link };
 }
