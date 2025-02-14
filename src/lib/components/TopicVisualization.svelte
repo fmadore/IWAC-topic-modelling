@@ -27,6 +27,9 @@
 
   $: filteredLinks = data.links.filter(l => l.weight > threshold);
 
+  // Declare a variable to bind the VisualizationGraph instance
+  let vizGraph: any;
+
   function handleThresholdChange(value: number) {
     threshold = value;
   }
@@ -43,35 +46,20 @@
   }
 
   function handleZoomIn() {
-    if (svg) {
-      d3.select(svg).transition()
-        .duration(750)
-        .call(
-          d3.zoom<SVGSVGElement, unknown>().transform,
-          d3.zoomIdentity.scale(1.3)
-        );
+    if (vizGraph) {
+      vizGraph.zoomBy(1.3);
     }
   }
 
   function handleZoomOut() {
-    if (svg) {
-      d3.select(svg).transition()
-        .duration(750)
-        .call(
-          d3.zoom<SVGSVGElement, unknown>().transform,
-          d3.zoomIdentity.scale(1/1.3)
-        );
+    if (vizGraph) {
+      vizGraph.zoomBy(1/1.3);
     }
   }
 
   function handleZoomReset() {
-    if (svg) {
-      d3.select(svg).transition()
-        .duration(750)
-        .call(
-          d3.zoom<SVGSVGElement, unknown>().transform,
-          d3.zoomIdentity
-        );
+    if (vizGraph) {
+      vizGraph.zoomReset();
     }
   }
 </script>
@@ -86,6 +74,7 @@
   />
 
   <VisualizationGraph
+    bind:this={vizGraph}
     bind:svg
     {data}
     {config}

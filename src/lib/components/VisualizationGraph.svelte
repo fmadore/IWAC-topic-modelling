@@ -14,6 +14,7 @@
   export let svg: SVGSVGElement | undefined = undefined;
 
   let simulation: d3.Simulation<TopicNode | DocumentNode, Link>;
+  let zoomBehavior: d3.ZoomBehavior<SVGSVGElement, unknown>;
 
   function createVisualization() {
     if (!svg || !data) return;
@@ -28,7 +29,7 @@
     const g = d3.select(svg).append('g');
 
     // Setup zoom
-    setupZoom(svg, g.node()!, zoomConfig);
+    zoomBehavior = setupZoom(svg, g.node()!, zoomConfig);
 
     // Create force simulation
     simulation = createSimulation(data.nodes, filteredLinks, config);
@@ -67,11 +68,30 @@
     simulation.alphaMin(0.001);
   }
 
-  onMount(() => {
-    createVisualization();
-  });
+  // Export a function to adjust the zoom transform programmatically
+  export function zoomTransform(newTransform: d3.ZoomTransform) {
+    if (zoomBehavior && svg) {
+      d3.select(svg).transition().duration(750).call(zoomBehavior.transform, newTransform);
+    }
+  }
 
-  afterUpdate(() => {
+  // Export a function to zoom by a given factor relative to the current transform
+  export function zoomBy(factor: number) {
+    if (svg && zoomBehavior) {
+      const currentTransform = d3.zoomTransform(svg);
+      const newTransform = d3.zoomIdentity.translate(currentTransform.x, currentTransform.y).scale(currentTransform.k * factor);
+      d3.select(svg).transition().duration(750).call(zoomBehavior.transform, newTransform);
+    }
+  }
+
+  // Export a function to reset the zoom to identity
+  export function zoomReset() {
+    if (svg && zoomBehavior) {
+      d3.select(svg).transition().duration(750).call(zoomBehavior.transform, d3.zoomIdentity);
+    }
+  }
+
+  onMount(() => {
     createVisualization();
   });
 
