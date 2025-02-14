@@ -62,6 +62,12 @@
       vizGraph.zoomReset();
     }
   }
+
+  // Add the following reactive statement at the end of the <script> block (after all functions):
+
+  $: if (vizGraph && filteredLinks) {
+    vizGraph.updateLinks(filteredLinks);
+  }
 </script>
 
 <div class="visualization-container">
@@ -78,7 +84,6 @@
     bind:svg
     {data}
     {config}
-    {zoomConfig}
     {filteredLinks}
     onNodeHover={handleNodeHover}
   />

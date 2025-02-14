@@ -10,7 +10,7 @@ return {
 	assets: new Set([".nojekyll","topic_modeling_results.json"]),
 	mimeTypes: {".json":"application/json"},
 	_: {
-		client: {start:"_app/immutable/entry/start.DzhQZNS9.js",app:"_app/immutable/entry/app.BNM2UMwi.js",imports:["_app/immutable/entry/start.DzhQZNS9.js","_app/immutable/chunks/XgbcOojc.js","_app/immutable/chunks/C0I3Lh4A.js","_app/immutable/chunks/pWUYzHru.js","_app/immutable/entry/app.BNM2UMwi.js","_app/immutable/chunks/C0I3Lh4A.js","_app/immutable/chunks/BiknXCUn.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.Bu_O3OZ6.js",app:"_app/immutable/entry/app.ClG2Qh7A.js",imports:["_app/immutable/entry/start.Bu_O3OZ6.js","_app/immutable/chunks/CrUCHqGf.js","_app/immutable/chunks/C0I3Lh4A.js","_app/immutable/chunks/BAebBeR_.js","_app/immutable/entry/app.ClG2Qh7A.js","_app/immutable/chunks/C0I3Lh4A.js","_app/immutable/chunks/BiknXCUn.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			
 		],
