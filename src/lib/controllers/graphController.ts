@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import type { TopicNode, DocumentNode, Link, VisualizationConfig } from '$lib/models';
 import { createSimulation } from '$lib/utils/simulation';
-import { renderVisualization } from '$lib/utils/visualization';
+import { renderVisualization, setupZoom } from '$lib/utils/visualization';
 
 export class GraphController {
   svg: SVGSVGElement;
@@ -12,6 +12,7 @@ export class GraphController {
   links: Link[];
   nodeSelection: d3.Selection<SVGCircleElement, TopicNode | DocumentNode, SVGGElement, unknown>;
   linkSelection: d3.Selection<SVGLineElement, Link, SVGGElement, unknown>;
+  private zoomBehavior: d3.ZoomBehavior<SVGSVGElement, unknown>;
 
   constructor(
     svg: SVGSVGElement,
@@ -27,6 +28,8 @@ export class GraphController {
     // Create container group
     const g = d3.select(svg).append('g');
     this.container = g.node() as SVGGElement;
+    // Setup zoom behavior on the svg element using setupZoom
+    this.zoomBehavior = setupZoom(this.svg, this.container, { minZoom: 0.1, maxZoom: 4 });
 
     // Initialize simulation
     this.simulation = createSimulation(this.nodes, this.links, this.config);
@@ -78,17 +81,11 @@ export class GraphController {
   zoomBy(factor: number) {
     const currentTransform = d3.zoomTransform(this.svg);
     const newTransform = d3.zoomIdentity.translate(currentTransform.x, currentTransform.y).scale(currentTransform.k * factor);
-    d3.select(this.svg).transition().duration(750).call(this.getZoomBehavior().transform, newTransform);
+    d3.select(this.svg).transition().duration(750).call(this.zoomBehavior.transform, newTransform);
   }
 
   zoomReset() {
-    d3.select(this.svg).transition().duration(750).call(this.getZoomBehavior().transform, d3.zoomIdentity);
-  }
-
-  // A helper to get the zoom behavior; assumes it was set up on the container
-  private getZoomBehavior() {
-    // d3.zoomBehavior is attached via call in setupZoom, so we retrieve it from the selection
-    return d3.select(this.svg).on('zoom') as d3.ZoomBehavior<SVGSVGElement, unknown>;
+    d3.select(this.svg).transition().duration(750).call(this.zoomBehavior.transform, d3.zoomIdentity);
   }
 
   destroy() {
