@@ -14,7 +14,9 @@
     const rawData = await response.json();
     data = processData(rawData);
     if (data) {
-      topics = data.nodes.filter(node => node.type === 'topic');
+      topics = data.nodes
+        .filter(node => node.type === 'topic')
+        .sort((a, b) => a.id - b.id);
     }
   });
 </script>
