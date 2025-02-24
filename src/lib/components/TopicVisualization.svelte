@@ -38,19 +38,19 @@
     }
   }
 
-  function handleZoomIn() {
+  export function handleZoomIn() {
     if (vizGraph) {
       vizGraph.zoomBy(1.3);
     }
   }
 
-  function handleZoomOut() {
+  export function handleZoomOut() {
     if (vizGraph) {
       vizGraph.zoomBy(1/1.3);
     }
   }
 
-  function handleZoomReset() {
+  export function handleZoomReset() {
     if (vizGraph) {
       vizGraph.zoomReset();
     }
@@ -63,12 +63,6 @@
 </script>
 
 <div class="visualization-container">
-  <div class="zoom-controls">
-    <button on:click={handleZoomIn}>Zoom In</button>
-    <button on:click={handleZoomOut}>Zoom Out</button>
-    <button on:click={handleZoomReset}>Reset</button>
-  </div>
-
   <VisualizationGraph
     bind:this={vizGraph}
     bind:svg
@@ -99,31 +93,6 @@
     margin: 0 auto;
     padding: 20px;
     position: relative;
-  }
-
-  .zoom-controls {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    gap: 8px;
-    z-index: 1;
-  }
-
-  .zoom-controls button {
-    padding: 8px 16px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    transition: all 0.2s ease;
-  }
-
-  .zoom-controls button:hover {
-    background: #f0f0f0;
-    border-color: #ccc;
   }
 
   .legend {

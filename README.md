@@ -10,19 +10,23 @@ The IWAC Topic Modelling application is a web-based tool for exploring and visua
 - **Interactive Visualization**: A dynamic visualization built with Svelte and D3.js enables users to explore topics and their connections to documents through an interactive force-directed graph.
 - **Multiple Dataset Support**: Users can switch between different organizational datasets through a clean dropdown interface.
 - **Document-Topic Connections**: Visualizes the relationships between documents and their most relevant topics, with connection strength indicated by line thickness.
-- **Dynamic Controls**: Users can adjust a threshold slider to filter connections (links) based on topic-document weight, as well as use zoom in/out and reset functions for better navigation.
+- **Unified Control Interface**: A consolidated header menu provides easy access to all visualization controls:
+  - Dataset selection for different organizations
+  - Link threshold adjustment with live updates
+  - Zoom controls for navigation
 - **Interactive Graph**: Nodes can be dragged and repositioned, with the force-directed layout automatically adjusting to maintain optimal spacing.
 - **Tooltips & Metadata**: Hover over nodes to display detailed information including topic labels, word weights, publication dates, and source details.
-- **Responsive UI**: The user interface is designed for clarity and responsiveness to facilitate both casual exploration and in-depth analysis.
+- **Responsive UI**: The user interface is designed for clarity and responsiveness, with controls adapting to different screen sizes.
 
 ## Architecture
 
 - **Frontend**:
   - **SvelteKit Application**: The user interface is built using SvelteKit. Key components include:
-    - `DatasetPicker.svelte`: Manages dataset selection and switching between different organization's topic models.
-    - `TopicVisualization.svelte`: Combines various visualization components and handles tooltip interactions.
-    - `VisualizationGraph.svelte`: Manages the SVG graph rendering and D3.js-based force simulation.
-    - `Tooltip.svelte` & `VisualizationControls.svelte`: Provide interactive feedback and control mechanisms.
+    - `HeaderMenu.svelte`: Unified control interface combining dataset selection, threshold adjustment, and zoom controls.
+    - `DatasetPicker.svelte`: Handles organization dataset switching.
+    - `TopicVisualization.svelte`: Manages the main visualization area and tooltip interactions.
+    - `VisualizationGraph.svelte`: Handles the SVG graph rendering and D3.js force simulation.
+    - `Tooltip.svelte`: Provides detailed node information on hover.
   - **D3.js Integration**: Implements force-directed layout, zooming, and dynamic link updates via D3.js in conjunction with Svelte reactivity.
 
 - **Backend/Processing**:
@@ -36,11 +40,19 @@ The IWAC Topic Modelling application is a web-based tool for exploring and visua
 
 The frontend of the application is organized into several key Svelte components:
 
-- **DatasetPicker.svelte**: A streamlined dropdown component for switching between different organizational datasets.
-- **TopicVisualization.svelte**: Combines various visualization components including tooltips, dynamic graphs, and control panels. It serves as the main entry point for managing data flow and user interactions.
-- **VisualizationGraph.svelte**: Renders an interactive SVG-based graph using D3.js's force simulation. It leverages the **GraphController** to manage zooming, panning, dragging, and the dynamic updating of links in response to changes in the data.
+- **HeaderMenu.svelte**: A unified control interface that consolidates all visualization controls in one place:
+  - Dataset selection dropdown
+  - Link threshold slider with live feedback
+  - Zoom controls for the visualization
+- **TopicVisualization.svelte**: The main visualization component that:
+  - Renders the force-directed graph
+  - Manages node interactions and hover states
+  - Provides a legend for the visualization
+- **VisualizationGraph.svelte**: Handles the technical aspects of the visualization:
+  - D3.js force simulation setup and management
+  - Node and link rendering
+  - Zoom and pan behaviors
 - **Tooltip.svelte**: Displays context-sensitive details for topics and documents when users hover over nodes.
-- **VisualizationControls.svelte**: Provides interactive controls, including a threshold slider for filtering connections and buttons for zoom operations.
 
 ## TypeScript Files Overview
 

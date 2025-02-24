@@ -13,6 +13,7 @@
   let error: string | null = null;
   let loading = true;
   let threshold = 0.2;
+  let vizComponent: TopicVisualization;
 
   async function handleDatasetChange(event: CustomEvent<{ datasetId: string, file: string }>) {
     try {
@@ -32,6 +33,24 @@
 
   function handleThresholdChange(value: number) {
     threshold = value;
+  }
+
+  function handleZoomIn() {
+    if (vizComponent) {
+      vizComponent.handleZoomIn();
+    }
+  }
+
+  function handleZoomOut() {
+    if (vizComponent) {
+      vizComponent.handleZoomOut();
+    }
+  }
+
+  function handleZoomReset() {
+    if (vizComponent) {
+      vizComponent.handleZoomReset();
+    }
   }
 
   onMount(async () => {
@@ -62,6 +81,9 @@
     <HeaderMenu 
       {threshold}
       onThresholdChange={handleThresholdChange}
+      onZoomIn={handleZoomIn}
+      onZoomOut={handleZoomOut}
+      onZoomReset={handleZoomReset}
       on:datasetChange={handleDatasetChange}
     />
   </header>
@@ -82,6 +104,7 @@
           words: t.words
         }))} />
         <TopicVisualization 
+          bind:this={vizComponent}
           data={visualizationData}
           {threshold}
         />

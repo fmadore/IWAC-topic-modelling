@@ -4,6 +4,9 @@
 
   export let threshold: number;
   export let onThresholdChange: (value: number) => void;
+  export let onZoomIn: () => void;
+  export let onZoomOut: () => void;
+  export let onZoomReset: () => void;
 
   const dispatch = createEventDispatcher();
 
@@ -36,6 +39,13 @@
     <div class="threshold-explanation">
       Link Threshold
       <span class="info-icon" title="Higher values show stronger topic-document relationships only">?</span>
+    </div>
+  </div>
+  <div class="menu-section zoom-section">
+    <div class="zoom-controls">
+      <button on:click={onZoomIn}>Zoom In</button>
+      <button on:click={onZoomOut}>Zoom Out</button>
+      <button on:click={onZoomReset}>Reset</button>
     </div>
   </div>
 </div>
@@ -100,6 +110,27 @@
     cursor: help;
   }
 
+  .zoom-controls {
+    display: flex;
+    gap: 8px;
+  }
+
+  .zoom-controls button {
+    padding: 8px 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .zoom-controls button:hover {
+    background: #f0f0f0;
+    border-color: #ccc;
+  }
+
   @media (max-width: 640px) {
     .header-menu {
       flex-direction: column;
@@ -112,6 +143,11 @@
 
     input[type="range"] {
       width: 100%;
+    }
+
+    .zoom-controls {
+      width: 100%;
+      justify-content: space-between;
     }
   }
 </style> 
