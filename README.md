@@ -8,7 +8,10 @@ The IWAC Topic Modelling application is a web-based tool for exploring and visua
 
 - **Topic Modeling Pipeline**: Uses LDA for extracting topics from preprocessed article texts. The Python script (`topic_modeling.py`) processes raw data and outputs results as JSON.
 - **Interactive Visualization**: A dynamic visualization built with Svelte and D3.js enables users to explore topics and their connections to documents through an interactive force-directed graph.
+- **Multiple Dataset Support**: Users can switch between different organizational datasets through a clean dropdown interface.
+- **Document-Topic Connections**: Visualizes the relationships between documents and their most relevant topics, with connection strength indicated by line thickness.
 - **Dynamic Controls**: Users can adjust a threshold slider to filter connections (links) based on topic-document weight, as well as use zoom in/out and reset functions for better navigation.
+- **Interactive Graph**: Nodes can be dragged and repositioned, with the force-directed layout automatically adjusting to maintain optimal spacing.
 - **Tooltips & Metadata**: Hover over nodes to display detailed information including topic labels, word weights, publication dates, and source details.
 - **Responsive UI**: The user interface is designed for clarity and responsiveness to facilitate both casual exploration and in-depth analysis.
 
@@ -16,6 +19,7 @@ The IWAC Topic Modelling application is a web-based tool for exploring and visua
 
 - **Frontend**:
   - **SvelteKit Application**: The user interface is built using SvelteKit. Key components include:
+    - `DatasetPicker.svelte`: Manages dataset selection and switching between different organization's topic models.
     - `TopicVisualization.svelte`: Combines various visualization components and handles tooltip interactions.
     - `VisualizationGraph.svelte`: Manages the SVG graph rendering and D3.js-based force simulation.
     - `Tooltip.svelte` & `VisualizationControls.svelte`: Provide interactive feedback and control mechanisms.
@@ -32,8 +36,9 @@ The IWAC Topic Modelling application is a web-based tool for exploring and visua
 
 The frontend of the application is organized into several key Svelte components:
 
+- **DatasetPicker.svelte**: A streamlined dropdown component for switching between different organizational datasets.
 - **TopicVisualization.svelte**: Combines various visualization components including tooltips, dynamic graphs, and control panels. It serves as the main entry point for managing data flow and user interactions.
-- **VisualizationGraph.svelte**: Renders an interactive SVG-based graph using D3.js's force simulation. It leverages the **GraphController** (located in `src/lib/controllers/graphController`) to manage zooming, panning, and the dynamic updating of links in response to changes in the data.
+- **VisualizationGraph.svelte**: Renders an interactive SVG-based graph using D3.js's force simulation. It leverages the **GraphController** to manage zooming, panning, dragging, and the dynamic updating of links in response to changes in the data.
 - **Tooltip.svelte**: Displays context-sensitive details for topics and documents when users hover over nodes.
 - **VisualizationControls.svelte**: Provides interactive controls, including a threshold slider for filtering connections and buttons for zoom operations.
 
@@ -41,12 +46,10 @@ The frontend of the application is organized into several key Svelte components:
 
 The application's TypeScript files provide the core functionality and ensure robust type-checking across the application. Key aspects include:
 
-- **Controllers**: For example, the `graphController.ts` in `src/lib/controllers` coordinates the D3 force simulation, zooming, panning, and updates to the graph based on user interactions.
+- **Controllers**: The `graphController.ts` in `src/lib/controllers` coordinates the D3 force simulation, zooming, panning, dragging, and updates to the graph based on user interactions.
 - **Utilities**: Files like `simulation.ts` and `visualization.ts` in `src/lib/utils` set up the force simulation, define default configurations, and manage rendering, zooming, and dragging behaviors.
 - **Data Processing**: The `dataProcessing.ts` file converts raw topic and document data into a structured format with nodes and links, which the visualization consumes.
 - **Models and Types**: Files such as `models.ts`, `types.ts`, `types.d.ts`, and `interfaces.ts` define the structure of topics, documents, links, and overall visualization data, ensuring consistency via strong type checking.
-
-Together, these TypeScript files form a solid foundation for the application's interactive visualization and data processing.
 
 ## Installation and Setup
 

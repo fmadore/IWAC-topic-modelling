@@ -38,7 +38,6 @@
 </script>
 
 <div class="dataset-picker">
-  <label for="dataset-select">Select Organization:</label>
   <select 
     id="dataset-select" 
     bind:value={selectedDataset}
@@ -58,12 +57,6 @@
     padding: 1rem;
     background-color: #f8f9fa;
     border-radius: 8px;
-  }
-
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
   }
 
   select {
