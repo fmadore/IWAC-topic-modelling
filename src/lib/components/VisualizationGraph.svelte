@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
+  import * as d3 from 'd3';
   import type { VisualizationData, VisualizationConfig, ZoomConfig, Link, TopicNode, DocumentNode } from '$lib/models';
   import { GraphController } from '$lib/controllers/graphController';
 

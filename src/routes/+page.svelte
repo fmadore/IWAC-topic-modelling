@@ -1,22 +1,47 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { base } from '$app/paths';
-  import TopicVisualization from '$lib/components/TopicVisualization.svelte';
+  import DatasetPicker from '$lib/components/DatasetPicker.svelte';
   import TopicSidebar from '$lib/components/TopicSidebar.svelte';
+  import TopicVisualization from '$lib/components/TopicVisualization.svelte';
+  import { loadDataset } from '$lib/services/datasetService';
   import { processData } from '$lib/utils/dataProcessing';
-  import { VisualizationData } from '$lib/models';
+  import type { TopicModelingData } from '$lib/services/datasetService';
+  import type { IVisualizationData } from '$lib/types';
 
-  let data: VisualizationData | null = null;
-  let topics: Array<{ id: number, label: string, words: string[] }> = [];
+  let rawData: TopicModelingData | null = null;
+  let visualizationData: IVisualizationData | null = null;
+  let error: string | null = null;
+  let loading = true;
+
+  async function handleDatasetChange(event: CustomEvent<{ datasetId: string, file: string }>) {
+    try {
+      loading = true;
+      error = null;
+      rawData = await loadDataset(event.detail.file);
+      // Transform raw data into visualization data
+      if (rawData) {
+        visualizationData = processData(rawData);
+      }
+    } catch (e) {
+      error = e instanceof Error ? e.message : 'Failed to load dataset';
+      console.error('Error loading dataset:', e);
+    } finally {
+      loading = false;
+    }
+  }
 
   onMount(async () => {
-    const response = await fetch(`${base}/topic_modeling_results.json`);
-    const rawData = await response.json();
-    data = processData(rawData);
-    if (data) {
-      topics = data.nodes
-        .filter(node => node.type === 'topic')
-        .sort((a, b) => a.id - b.id);
+    try {
+      rawData = await loadDataset('topic_modeling_results_Conseil_National_Islamique.json');
+      // Transform raw data into visualization data
+      if (rawData) {
+        visualizationData = processData(rawData);
+      }
+    } catch (e) {
+      error = e instanceof Error ? e.message : 'Failed to load initial dataset';
+      console.error('Error loading initial dataset:', e);
+    } finally {
+      loading = false;
     }
   });
 </script>
@@ -28,20 +53,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="container">
-  <h1>Topic Model Visualization</h1>
-  {#if data}
-    <div class="dashboard-wrapper">
-      <div class="sidebar-container">
-        <TopicSidebar {topics} />
+<div class="app-container">
+  <header>
+    <h1>Topic Modeling Visualization</h1>
+    <DatasetPicker on:change={handleDatasetChange} />
+  </header>
+
+  <main>
+    {#if loading}
+      <div class="loading">Loading dataset...</div>
+    {:else if error}
+      <div class="error">
+        <p>Error: {error}</p>
+        <button on:click={() => window.location.reload()}>Retry</button>
       </div>
-      <div class="visualization-container">
-        <TopicVisualization {data} />
+    {:else if rawData && visualizationData}
+      <div class="content">
+        <TopicSidebar topics={rawData.topics.map(t => ({
+          id: t.id,
+          label: `Topic ${t.id}`,
+          words: t.words
+        }))} />
+        <TopicVisualization data={visualizationData} />
       </div>
-    </div>
-  {:else}
-    <div class="loading">Loading visualization...</div>
-  {/if}
+    {/if}
+  </main>
 </div>
 
 <style>
@@ -56,35 +92,59 @@
     padding: 0;
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .dashboard-wrapper {
+  .app-container {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    height: 100vh;
   }
 
-  .sidebar-container {
-    flex: 0 0 250px;
-  }
-
-  .visualization-container {
-    flex: 1;
+  header {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
 
   h1 {
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 24px;
-    color: #1a1a1a;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
   }
 
-  .loading {
-    text-align: center;
+  main {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .content {
+    display: flex;
+    height: 100%;
+  }
+
+  .loading, .error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     padding: 2rem;
-    color: #666;
+  }
+
+  .error {
+    color: #d32f2f;
+  }
+
+  .error button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .error button:hover {
+    background-color: #d32f2f;
   }
 </style> 
