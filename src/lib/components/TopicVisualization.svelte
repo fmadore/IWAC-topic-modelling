@@ -4,12 +4,11 @@
   import type { ITopicNode, IDocumentNode } from '$lib/types';
   import { defaultConfig } from '$lib/utils/simulation';
   import Tooltip from './Tooltip.svelte';
-  import VisualizationControls from './VisualizationControls.svelte';
   import VisualizationGraph from './VisualizationGraph.svelte';
 
   export let data: VisualizationData;
+  export let threshold: number = 0.2;
   
-  let threshold = 0.2;
   let svg: SVGSVGElement;
   
   // Tooltip state
@@ -23,16 +22,10 @@
     height: 800
   });
 
-  const zoomConfig = new ZoomConfig();
-
   $: filteredLinks = data.links.filter(l => l.weight > threshold);
 
   // Declare a variable to bind the VisualizationGraph instance
   let vizGraph: any;
-
-  function handleThresholdChange(value: number) {
-    threshold = value;
-  }
 
   function handleNodeHover(event: MouseEvent, node: ITopicNode | IDocumentNode | null) {
     if (node) {
@@ -63,21 +56,18 @@
     }
   }
 
-  // Add the following reactive statement at the end of the <script> block (after all functions):
-
+  // Reactive statement to update links when filteredLinks changes
   $: if (vizGraph && filteredLinks) {
     vizGraph.updateLinks(filteredLinks);
   }
 </script>
 
 <div class="visualization-container">
-  <VisualizationControls
-    {threshold}
-    onThresholdChange={handleThresholdChange}
-    onZoomIn={handleZoomIn}
-    onZoomOut={handleZoomOut}
-    onZoomReset={handleZoomReset}
-  />
+  <div class="zoom-controls">
+    <button on:click={handleZoomIn}>Zoom In</button>
+    <button on:click={handleZoomOut}>Zoom Out</button>
+    <button on:click={handleZoomReset}>Reset</button>
+  </div>
 
   <VisualizationGraph
     bind:this={vizGraph}
@@ -108,6 +98,32 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
+  }
+
+  .zoom-controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 8px;
+    z-index: 1;
+  }
+
+  .zoom-controls button {
+    padding: 8px 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .zoom-controls button:hover {
+    background: #f0f0f0;
+    border-color: #ccc;
   }
 
   .legend {

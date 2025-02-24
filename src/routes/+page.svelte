@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import DatasetPicker from '$lib/components/DatasetPicker.svelte';
+  import HeaderMenu from '$lib/components/HeaderMenu.svelte';
   import TopicSidebar from '$lib/components/TopicSidebar.svelte';
   import TopicVisualization from '$lib/components/TopicVisualization.svelte';
   import { loadDataset } from '$lib/services/datasetService';
@@ -12,13 +12,13 @@
   let visualizationData: IVisualizationData | null = null;
   let error: string | null = null;
   let loading = true;
+  let threshold = 0.2;
 
   async function handleDatasetChange(event: CustomEvent<{ datasetId: string, file: string }>) {
     try {
       loading = true;
       error = null;
       rawData = await loadDataset(event.detail.file);
-      // Transform raw data into visualization data
       if (rawData) {
         visualizationData = processData(rawData);
       }
@@ -30,10 +30,13 @@
     }
   }
 
+  function handleThresholdChange(value: number) {
+    threshold = value;
+  }
+
   onMount(async () => {
     try {
       rawData = await loadDataset('topic_modeling_results_Conseil_National_Islamique.json');
-      // Transform raw data into visualization data
       if (rawData) {
         visualizationData = processData(rawData);
       }
@@ -56,7 +59,11 @@
 <div class="app-container">
   <header>
     <h1>Topic Modeling Visualization</h1>
-    <DatasetPicker on:change={handleDatasetChange} />
+    <HeaderMenu 
+      {threshold}
+      onThresholdChange={handleThresholdChange}
+      on:datasetChange={handleDatasetChange}
+    />
   </header>
 
   <main>
@@ -74,7 +81,10 @@
           label: `Topic ${t.id}`,
           words: t.words
         }))} />
-        <TopicVisualization data={visualizationData} />
+        <TopicVisualization 
+          data={visualizationData}
+          {threshold}
+        />
       </div>
     {/if}
   </main>

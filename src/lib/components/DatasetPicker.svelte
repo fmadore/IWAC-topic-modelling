@@ -32,7 +32,7 @@
     selectedDataset = select.value;
     const dataset = datasets.find(d => d.id === select.value);
     if (dataset) {
-      dispatch('change', { datasetId: dataset.id, file: dataset.file });
+      dispatch('datasetChange', { datasetId: dataset.id, file: dataset.file });
     }
   }
 </script>
