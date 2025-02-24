@@ -1,0 +1,5429 @@
+{
+  "topics": [
+    {
+      "id": 2,
+      "words": [
+        "religieux",
+        "musulman",
+        "faso",
+        "président",
+        "communauté",
+        "faib",
+        "paix",
+        "etat",
+        "national",
+        "burkinabè"
+      ],
+      "word_weights": [
+        [
+          "religieux",
+          528.3752873634437
+        ],
+        [
+          "musulman",
+          372.8620385454748
+        ],
+        [
+          "faso",
+          327.73215398612274
+        ],
+        [
+          "président",
+          317.6695122521917
+        ],
+        [
+          "communauté",
+          277.838621687226
+        ],
+        [
+          "faib",
+          277.7727176408294
+        ],
+        [
+          "paix",
+          261.32647312039154
+        ],
+        [
+          "etat",
+          249.8756015244487
+        ],
+        [
+          "national",
+          230.9722187837938
+        ],
+        [
+          "burkinabè",
+          212.3607689045625
+        ]
+      ],
+      "weight": 10703.585954626542,
+      "prevalence": 0.2907240121309966,
+      "label": "Topic 3"
+    },
+    {
+      "id": 1,
+      "words": [
+        "musulman",
+        "dieu",
+        "ramadan",
+        "jour",
+        "mois",
+        "allah",
+        "prière",
+        "islam",
+        "paix",
+        "jeûne"
+      ],
+      "word_weights": [
+        [
+          "musulman",
+          600.4516683440008
+        ],
+        [
+          "dieu",
+          386.5135412039429
+        ],
+        [
+          "ramadan",
+          273.24704605293647
+        ],
+        [
+          "jour",
+          246.4862540332466
+        ],
+        [
+          "mois",
+          226.58369795732713
+        ],
+        [
+          "allah",
+          223.40550413321222
+        ],
+        [
+          "prière",
+          195.21049549473835
+        ],
+        [
+          "islam",
+          188.27515329796543
+        ],
+        [
+          "paix",
+          178.52576963791773
+        ],
+        [
+          "jeûne",
+          171.3990615979843
+        ]
+      ],
+      "weight": 8868.54599089603,
+      "prevalence": 0.24088182065068656,
+      "label": "Topic 2"
+    },
+    {
+      "id": 0,
+      "words": [
+        "musulman",
+        "président",
+        "faib",
+        "hadj",
+        "congrès",
+        "communauté",
+        "national",
+        "faso",
+        "cerfi",
+        "membre"
+      ],
+      "word_weights": [
+        [
+          "musulman",
+          386.18389986476006
+        ],
+        [
+          "président",
+          288.1941264284556
+        ],
+        [
+          "faib",
+          204.83852077398402
+        ],
+        [
+          "hadj",
+          195.52658615383666
+        ],
+        [
+          "congrès",
+          192.67941640623735
+        ],
+        [
+          "communauté",
+          184.09066658721696
+        ],
+        [
+          "national",
+          154.0724514118479
+        ],
+        [
+          "faso",
+          147.139832739894
+        ],
+        [
+          "cerfi",
+          143.5489612897796
+        ],
+        [
+          "membre",
+          137.84657056928998
+        ]
+      ],
+      "weight": 6912.636957726118,
+      "prevalence": 0.18775666017672138,
+      "label": "Topic 1"
+    },
+    {
+      "id": 3,
+      "words": [
+        "hadj",
+        "pèlerin",
+        "organisation",
+        "pèlerinage",
+        "ministre",
+        "mecque",
+        "année",
+        "arabie",
+        "saoudite",
+        "vol"
+      ],
+      "word_weights": [
+        [
+          "hadj",
+          446.75519466527714
+        ],
+        [
+          "pèlerin",
+          336.0346518855085
+        ],
+        [
+          "organisation",
+          240.1018819787505
+        ],
+        [
+          "pèlerinage",
+          176.2463086630821
+        ],
+        [
+          "ministre",
+          162.31053241367488
+        ],
+        [
+          "mecque",
+          130.6307784408783
+        ],
+        [
+          "année",
+          129.55973821842744
+        ],
+        [
+          "arabie",
+          127.13195298565053
+        ],
+        [
+          "saoudite",
+          126.37900784747934
+        ],
+        [
+          "vol",
+          123.85458050228782
+        ]
+      ],
+      "weight": 5281.434461141648,
+      "prevalence": 0.1434509726795183,
+      "label": "Topic 4"
+    },
+    {
+      "id": 4,
+      "words": [
+        "mosquée",
+        "gouvernement",
+        "ministre",
+        "faib",
+        "mesure",
+        "prière",
+        "lieu",
+        "décision",
+        "culte",
+        "fidèle"
+      ],
+      "word_weights": [
+        [
+          "mosquée",
+          301.5804415959109
+        ],
+        [
+          "gouvernement",
+          215.2309111604092
+        ],
+        [
+          "ministre",
+          214.94374793105155
+        ],
+        [
+          "faib",
+          207.97386079373607
+        ],
+        [
+          "mesure",
+          142.7617278966867
+        ],
+        [
+          "prière",
+          124.24838494172502
+        ],
+        [
+          "lieu",
+          109.0456147254532
+        ],
+        [
+          "décision",
+          106.99703615940835
+        ],
+        [
+          "culte",
+          102.39579347837847
+        ],
+        [
+          "fidèle",
+          96.27372578887164
+        ]
+      ],
+      "weight": 5050.79663560842,
+      "prevalence": 0.137186534362077,
+      "label": "Topic 5"
+    }
+  ],
+  "documents": [
+    {
+      "id": 0,
+      "title": "8e congrès du mouvement sunnite du Burkina : pour une consolidation des acquis",
+      "date": "2013-04-02",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.6810070751943899,
+        0.000889147917281634,
+        0.12671762068897388,
+        0.0008891603977132709,
+        0.1904969958016414
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Forum sur la laicité : les musulmans pour un État équidistant des différentes confessions religieuses",
+      "date": "2012-09-25",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.31418089637137997,
+        0.0011175311514750362,
+        0.6824662194674844,
+        0.001117644327833412,
+        0.0011177086818270725
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Aid El Fitr : paix, bonne gouvernance et dialogue célébrés",
+      "date": "2012-08-20",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.21823763843846658,
+        0.7067483820958712,
+        0.0736846791130891,
+        0.0006646386260051047,
+        0.0006646617265678522
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fête de la Tabaski : des prières pour plus de cohésion sociale",
+      "date": "2011-11-07",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.3436484041301306,
+        0.6513916255937581,
+        0.001653282260754358,
+        0.0016533402818838048,
+        0.0016533477334731974
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fédération des associations islamiques : les membres des commissions techniques nationales installés",
+      "date": "2010-07-05",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.9945565796634112,
+        0.001360766300664696,
+        0.0013609673985932617,
+        0.0013608396107853693,
+        0.0013608470265453543
+      ]
+    },
+    {
+      "id": 5,
+      "title": "L'Archevêque de Ouaga parmi les fidèles",
+      "date": "2009-11-29",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.26028484623445,
+        0.7369236626078427,
+        0.0009305463872896877,
+        0.0009304535634767294,
+        0.0009304912069409268
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Le stade du 4-Août refuse du monde",
+      "date": "2007-06-25",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.2745390671300309,
+        0.5206225142414906,
+        0.2020009896493774,
+        0.001418756645383593,
+        0.0014186723337174052
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Débat autour de l'art.37 de la constitution : la FAIBF appelle au dialogue",
+      "date": "2014-09-01",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.13089639110423498,
+        0.0015272269767922545,
+        0.8645222015964213,
+        0.0015270890528822033,
+        0.001527091269669167
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Des pèlerins interpellent le MATD sur leurs déboires",
+      "date": "2010-01-24",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0008098786231781492,
+        0.0008099341500244698,
+        0.0008098766930419469,
+        0.9257614880819105,
+        0.0718088224518449
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Promotion de la paix au Burkina : la FAIB apporte ses bénédictions à la Ligue islamique pour la promotion de la paix au Faso",
+      "date": "2016-05-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.5060123889302804,
+        0.0013247801380840223,
+        0.38298059720140737,
+        0.0013248292486480941,
+        0.10835740448157988
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Décès de El Hadj Oumarou Kanazoe : hommages au \"Doua\" du 7e jour à Yako",
+      "date": "2011-11-07",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.625899338869063,
+        0.33221235942069627,
+        0.001504220828472834,
+        0.00150419492900696,
+        0.03887988595276112
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Paix et réconciliation nationale : une délégation de la CODER reçue par la FAIB",
+      "date": "2016-11-23",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0014820099948609107,
+        0.0014821265416806921,
+        0.9625677619844236,
+        0.03298635560426503,
+        0.0014817458747697554
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Communauté musulmane du Burkina Faso : prières et invocations pour la paix",
+      "date": "2013-10-14",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.1678948199558229,
+        0.6919823691220852,
+        0.0010365874264500708,
+        0.13804959235146425,
+        0.001036631144177428
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Hadj : les 500 premiers pèlerins ont pris leur vol",
+      "date": "2013-09-24",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0010584368642257052,
+        0.13534802400719764,
+        0.00105848091914918,
+        0.8614765960979822,
+        0.0010584621114453038
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Organisation du Hadj : gouvernement et associations cherchent une meilleure formule",
+      "date": "2008-02-15",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0011431731031300108,
+        0.001143213278442008,
+        0.0011431420914151964,
+        0.9954272246232313,
+        0.0011432469037814612
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Hadj 2007 : les organisateurs contre le retour de l'État dans l'organisation",
+      "date": "2008-02-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.15911625701429788,
+        0.0005666718845787548,
+        0.0005666986131582981,
+        0.8391836926954951,
+        0.0005666797924699205
+      ]
+    },
+    {
+      "id": 16,
+      "title": "La part de l'homme de tenue musulman",
+      "date": "2007-07-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0010155433304834189,
+        0.5758205704958014,
+        0.3222625803633986,
+        0.09988580711503486,
+        0.0010154986952816076
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Caricatures sur le prophète Mahomet : les musulmans du Burkina protestent",
+      "date": "2006-02-09",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.20258546136532593,
+        0.27097358912839264,
+        0.3572597619283126,
+        0.0006827706144888803,
+        0.16849841696348009
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Pèlerinage a la Mecque : le Hadj privatisé",
+      "date": "2008-04-28",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.055990173330715924,
+        0.0011175345901954957,
+        0.0011175708092824635,
+        0.9406570298054574,
+        0.0011176914643487392
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Voyage aux sources de la Tidjania : montrer le vrai visage de l'Islam",
+      "date": "2006-12-05",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.3744664931992492,
+        0.21521145262027574,
+        0.2548028397790297,
+        0.11053247997499026,
+        0.044986734426455136
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Mosquée sunnite de Ouaga : première prière après la réconciliation",
+      "date": "2006-10-09",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.4762388011584925,
+        0.001361039273820034,
+        0.07607568251735741,
+        0.0013609448005686945,
+        0.4449635322497614
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Le MATD invite les responsables des musulmans à revoir leur dispositif",
+      "date": "2007-06-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.20197445857502888,
+        0.001069658010018956,
+        0.001069815985813557,
+        0.7948161760995246,
+        0.00106989132961409
+      ]
+    },
+    {
+      "id": 22,
+      "title": "57e anniversaire de l'indépendance du Burkina : 940 personnes distinguées à Kosyam",
+      "date": "2017-12-06",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.40544334605547505,
+        0.0008660653442732741,
+        0.33598234174550234,
+        0.0008659763116895779,
+        0.25684227054305986
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Position des musulmans donnée par le sg de la FAIB :  l'AEEMB et le CERFI se démarquent",
+      "date": "2013-09-16",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.26838628376427187,
+        0.00121246502271511,
+        0.7279765094610233,
+        0.0012123135927583368,
+        0.001212428159231339
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Islam et paix dans le monde : ou comment contrer le discours extrémiste",
+      "date": "2016-05-31",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.14424491425933497,
+        0.4424407660612268,
+        0.4116540830510192,
+        0.0008300585042372772,
+        0.0008301781241818116
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Nouvelle attaque terroriste à Ouagadougou : tel le roseau, le Burkina ne doit pas rompre",
+      "date": "2017-08-15",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0013426882492513826,
+        0.001342750504265286,
+        0.7940878913588537,
+        0.0013426630045186066,
+        0.201884006883111
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Ce sera le 16 novembre",
+      "date": "2010-11-11",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.21568294801518034,
+        0.7501839445368969,
+        0.0019051439168650355,
+        0.030322836841781633,
+        0.0019051266892761377
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Nouvel an musulman : les vœux de l'AEEMB",
+      "date": "2008-01-21",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.22264815455867146,
+        0.5408828601276503,
+        0.1810877296708222,
+        0.000905280532639228,
+        0.05447597511021668
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Islam au Burkina : à la loupe de l'imam Tiégo",
+      "date": "2007-12-26",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0004751712290883606,
+        0.9282664921993866,
+        0.00047515908146443796,
+        0.07030800575959197,
+        0.00047517173046857705
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Projet de loi sur les libertés religieuses : le consensus avant tout !",
+      "date": "2017-01-13",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0011302199206249526,
+        0.0011302591087215777,
+        0.8131248047806119,
+        0.0011302077571058186,
+        0.18348450843293576
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Position des confessions religieuses sur le Sénat : le festival de la cohérence et du clair-obscur",
+      "date": "2013-09-16",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.000844094069675019,
+        0.0008441071512935816,
+        0.9966235822708622,
+        0.0008440728436034988,
+        0.0008441436645655916
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Ramadan : une école de spiritualité pour tout musulman",
+      "date": "2012-07-24",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0007274274209290886,
+        0.9970903815871879,
+        0.0007273902250467058,
+        0.0007274142707673882,
+        0.0007273864960688845
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Mise en place du Sénat : les musulmans approuvent, les protestants hésitent",
+      "date": "2013-09-16",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0013075930563897081,
+        0.001307391736513673,
+        0.9947700041569991,
+        0.0013075464163905914,
+        0.0013074646337070093
+      ]
+    },
+    {
+      "id": 33,
+      "title": "El Hadj Hamadi Baro de retour de La Mecque : les visites médicales ne se font pas dans les règles de l'art",
+      "date": "2015-11-17",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.00032421389115115326,
+        0.1685599761018403,
+        0.00032422336716524585,
+        0.8304673471219437,
+        0.0003242395178996095
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Crises socio-religieuses : des propositions pour une bonne gestion",
+      "date": "2008-07-31",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0004265478115485767,
+        0.23696296640692763,
+        0.42344220091929713,
+        0.00042657077493836817,
+        0.3387417140872883
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Place des Ahmaddiya en Islam : la polémique se poursuit",
+      "date": "2007-12-06",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.00124259506023499,
+        0.5344942943424941,
+        0.40223518726160107,
+        0.0012429932278719507,
+        0.06078493010779798
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Réussite du processus électoral : la communauté musulmane priera",
+      "date": "2012-02-22",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.4382716242397208,
+        0.0019053136329254333,
+        0.5560126349580988,
+        0.0019051172010199637,
+        0.0019053099682349126
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Hadj 2018 : le comité national de suivi renouvelé",
+      "date": "2018-03-21",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0007724068558194656,
+        0.0007722903596777672,
+        0.0007724202926195216,
+        0.9969104468439574,
+        0.0007724356479256972
+      ]
+    },
+    {
+      "id": 38,
+      "title": "« Sécurité islamique » à Pouytenga : selon la FAIB, les tenues confectionnées ont été remises à la gendarmerie",
+      "date": "2018-03-29",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0009134934773911705,
+        0.000913425610078824,
+        0.0009135407313946511,
+        0.0009134751625943256,
+        0.9963460650185411
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Commune de Kassoum : Saran Séré/Sérémé offre une mosquée aux fidèles musulmans de Bassan",
+      "date": "2018-04-03",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.11317778936127698,
+        0.19185404906588438,
+        0.35706175142712393,
+        0.0014818064965684196,
+        0.33642460364914617
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Fête de Tabaski : une leçon de certitude, d'amour véritable",
+      "date": "2007-12-20",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.00045157615475624805,
+        0.9327989746752344,
+        0.00045156097377320703,
+        0.06584631562221736,
+        0.0004515725740187371
+      ]
+    },
+    {
+      "id": 41,
+      "title": "\"Les musulmans trouvent leur interêt dans le Sénat\" : \"Nous ne nous reconnaissons pas dans de telles affirmations\"",
+      "date": "2013-09-16",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.2905873690900943,
+        0.0010931712290863066,
+        0.7061332012472479,
+        0.0010930905983237277,
+        0.0010931678352478506
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Affaire Charlie Hebdo : belle preuve d'œcuménisme à Bobo",
+      "date": "2015-01-26",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.21875172912888885,
+        0.3328474936505641,
+        0.4435804955257121,
+        0.002410196349686471,
+        0.0024100853451484395
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Forum sur la laïcité : pluie de douas sur les représentants musulmans",
+      "date": "2012-09-23",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.2638808084407581,
+        0.0011563480423190332,
+        0.527309178326231,
+        0.09423734872815791,
+        0.11341631646253399
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Musulmans du Burkina : pas de fédération restrictive",
+      "date": "2003-10-23",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.9301219773913488,
+        0.06522514772384827,
+        0.0015507083511651161,
+        0.0015508983424264283,
+        0.001551268191211212
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Associations islamiques du Burkina : une seule voix, un seul \"muezzin\"",
+      "date": "2005-12-15",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.9967601839302335,
+        0.0008099255064584065,
+        0.0008099301310255032,
+        0.0008100131898631635,
+        0.0008099472424195189
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Projet de loi sur les libertés religieuses : la fatwa des ulémas",
+      "date": "2017-01-10",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0004074248947548906,
+        0.0004074017980508499,
+        0.7591447546140994,
+        0.0004074106454749032,
+        0.23963300804761992
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Hadj 2015 : une baisse du prix du billet inch'Allah",
+      "date": "2015-08-16",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0011431973762481655,
+        0.0011430017790301813,
+        0.0011431540668957508,
+        0.9954275807083991,
+        0.0011430660694267476
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Jeûne de Ramadan 2015 : début demain jeudi 18 juin",
+      "date": "2015-06-16",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0021983071803085615,
+        0.9912075883084641,
+        0.002198159647900578,
+        0.0021979630894153955,
+        0.0021979817739112163
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Imam Aboubacar Sana sur l'unité islamique : « Chez nous, ça patauge dans tous les sens »",
+      "date": "2014-07-17",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.7400615310564186,
+        0.222799036610491,
+        0.0005451370325067029,
+        0.03604914710274288,
+        0.0005451481978408447
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Hadj 2008 : premier test d'une « privatisation encadrée »",
+      "date": "2008-11-13",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.08471450413186694,
+        0.00048671481012265485,
+        0.00048674856549748045,
+        0.9138252845715903,
+        0.000486747920922622
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Imam Ismael Tiendrébéogo : \"Rechercher la lune est un acte d'adoration\"",
+      "date": "2010-09-09",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.00059714341529545,
+        0.89220669988768,
+        0.000597171512922078,
+        0.10600177108502411,
+        0.0005972140990785834
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Un diagnostic complet pour une thérapie adaptée",
+      "date": "2007-06-04",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.1417760200521612,
+        0.0010812720455252844,
+        0.0010813867435774795,
+        0.6993680747779987,
+        0.15669324638073726
+      ]
+    },
+    {
+      "id": 53,
+      "title": "La Tabaski aura lieu le lundi 8 décembre",
+      "date": "2008-12-02",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0029861939439943777,
+        0.9537651663773561,
+        0.0029859529944889656,
+        0.03727694573737268,
+        0.0029857409467878783
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Fédération des associations islamiques : « Doua » contre le terrorisme chez Roch",
+      "date": "2018-03-19",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.19120387421211993,
+        0.10126578851678089,
+        0.6504740147857552,
+        0.0013988179394508185,
+        0.05565750454589321
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Hadj 2017 : premier vol sous le feu des Kalachs",
+      "date": "2017-08-16",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.00047979832292770745,
+        0.12064736436772716,
+        0.00047975548077277695,
+        0.8779133388870242,
+        0.00047974294154816074
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Prière de la Tabaski : le Moogho Naaba est de retour",
+      "date": "2008-12-08",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.45540385468435624,
+        0.5414864907638739,
+        0.001036512906215639,
+        0.001036517040491049,
+        0.0010366246050632164
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Organisation du hadj : plus jamais ça !",
+      "date": "2008-02-14",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.23412134821280411,
+        0.0014600099549011802,
+        0.0014602121061436028,
+        0.6640003481157621,
+        0.09895808161038909
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Un cadre d'échanges sur les défis communs",
+      "date": "2006-07-20",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.9927910089504226,
+        0.0018021112137161853,
+        0.0018023626998421713,
+        0.0018023026679401595,
+        0.0018022144680788497
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Kosyam : No-kaoré chez Roch (1)",
+      "date": "2017-06-23",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.001626403943602354,
+        0.6303745272350025,
+        0.36474604389213594,
+        0.0016264333624077198,
+        0.001626591566851407
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Candidats au Hadj : comme celle du muezzin, elle monte, « La Voix du pèlerin »",
+      "date": "2013-06-20",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.20771670480560064,
+        0.0007274411939948021,
+        0.000727496513111807,
+        0.7901008903744041,
+        0.0007274671128885831
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Lutte contre la pauvreté : « Et si l'humanité s'inspirait de l'islam ? »",
+      "date": "2009-03-10",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.38553639320568056,
+        0.45787226881556436,
+        0.09391298441039042,
+        0.061335607529932994,
+        0.001342746038431625
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Newton Ahmed Barry contesté à la CENI : le CERFI et l'AEEMB démentent et réaffirment leur soutien au journaliste",
+      "date": "2016-07-24",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.9903595260679589,
+        0.0024101727963632405,
+        0.002410148125544769,
+        0.0024100890617039807,
+        0.0024100639484291
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Hadj 2019 : bilan mitigé",
+      "date": "2019-09-17",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0010814803910296183,
+        0.0010813879108226045,
+        0.0010814056502628552,
+        0.9956743010070521,
+        0.0010814250408326851
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Pèlerinage à La Mecque : nos premiers « ladji » sont de retour",
+      "date": "2019-08-20",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.001156368323906162,
+        0.311720318124058,
+        0.0011563869232712085,
+        0.684810542289819,
+        0.0011563843389457173
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Association islamique Nachroul islam de Pouytenga : ainsi naissent les milices",
+      "date": "2018-03-25",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.00202079850713619,
+        0.31229569739785706,
+        0.002020869339148127,
+        0.002020766639750542,
+        0.681641868116108
+      ]
+    },
+    {
+      "id": 66,
+      "title": "\"L'islam n'a jamais bafoué le droit de quiconque\"",
+      "date": "2007-04-04",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.28484244446341545,
+        0.6895276782431485,
+        0.0006081054673392971,
+        0.024413664768890193,
+        0.000608107057206609
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Situation nationale : Zeph chez le Grand Imam - Assimi chez le Cardinal",
+      "date": "2014-08-31",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0018353726018989563,
+        0.0018354480706365252,
+        0.9926584776435087,
+        0.0018353164969643094,
+        0.0018353851869915274
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Paul Kaba Thiéba consulte la communauté musulmane",
+      "date": "2018-09-14",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013609624932875248,
+        0.0013611124044712064,
+        0.5830997015701141,
+        0.0013608132084940024,
+        0.4128174103236331
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Les atouts de Newton Ahmed Barry",
+      "date": "2016-07-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0016812275888218647,
+        0.001681163077978012,
+        0.8363642236254506,
+        0.001681148077673264,
+        0.15859223763007627
+      ]
+    },
+    {
+      "id": 70,
+      "title": "CENI : Me Kéré traduit sa gratitude à la communauté musulmane",
+      "date": "2016-06-23",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9913946179423501,
+        0.0021514122365369702,
+        0.00215138601067914,
+        0.0021510528230041467,
+        0.002151530987429745
+      ]
+    },
+    {
+      "id": 71,
+      "title": "La Coordination de l'Ouest exige la démission du bureau fédéral",
+      "date": "2015-05-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.7702065278794528,
+        0.22747613641472778,
+        0.0007724053193051091,
+        0.0007724530374136609,
+        0.0007724773491008293
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Fédération des associations islamiques du Burkina Faso : l'Union enfin retrouvée!",
+      "date": "2005-12-20",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9970899982588266,
+        0.0007275325998437205,
+        0.0007274704024361775,
+        0.0007274824810025059,
+        0.0007275162578910893
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Associations islamiques du Burkina : gestation d'une fédération",
+      "date": "2005-12-16",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9947010042216273,
+        0.0013247457846850461,
+        0.001324833824716791,
+        0.001324752867622491,
+        0.0013246633013483274
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Conférence épiscopale du Burkina-Niger - Musulmans et Chrétiens : ensemble pour construire une société de paix",
+      "date": "2008-10-02",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013074681100430888,
+        0.9333273423613543,
+        0.06275045478180832,
+        0.0013073616615662813,
+        0.0013073730852279583
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Mise au point : Souleymane Compaoré donne des précisions sur ses propos dans le cadre du CCRP",
+      "date": "2011-07-14",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.36576472391677844,
+        0.0016533190893833524,
+        0.629275482388953,
+        0.0016532070678707007,
+        0.0016532675370145118
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Musulmans francophones : Ouaga accueille le IVe colloque",
+      "date": "2006-07-21",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.8471499134810732,
+        0.001143303801692846,
+        0.14942059655580414,
+        0.0011431051385251132,
+        0.0011430810229046458
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Les insuffisances du Hadj 2009 expliquées aux députés",
+      "date": "2010-03-29",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0005831890890219619,
+        0.0005831917060210684,
+        0.0005831842671695366,
+        0.9976672128190595,
+        0.0005832221187279807
+      ]
+    },
+    {
+      "id": 78,
+      "title": "La Fédération des associations islamiques se présente à Blaise Compaoré",
+      "date": "2006-07-04",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.8142139792327934,
+        0.0018695112213818821,
+        0.18017750954245246,
+        0.0018695520186298258,
+        0.0018694479847423471
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Organisation du Hadj : gouvernement et associations islamiques cherchent la meilleure formule",
+      "date": "2008-02-15",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.001227314939051319,
+        0.0012272370173273671,
+        0.0012273020466444704,
+        0.9950908077664257,
+        0.0012273382305512761
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Les premiers El Hadj et Hadja de retour au bercail",
+      "date": "2008-12-16",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0015040918445127054,
+        0.001504081755793618,
+        0.0015041363979321426,
+        0.9939835721426508,
+        0.0015041178591108646
+      ]
+    },
+    {
+      "id": 81,
+      "title": "IIIe congrès Tidjania : les tidjanites veulent s'unir pour le rayonnement de l'Islam",
+      "date": "2009-05-12",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.37564498746151626,
+        0.2626352141528763,
+        0.0010474768011079457,
+        0.3596248210758779,
+        0.0010475005086217073
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Flambée des prix : consultations tous azimuts du gouvernement burkinabè",
+      "date": "2008-02-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000491600091200439,
+        0.0004915259614720853,
+        0.49172952463037006,
+        0.0004915257824448068,
+        0.5067958235345126
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Maouloud 2006 : les musulmans burkinabè cultivent la tolérance",
+      "date": "2006-04-11",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.724608887044807,
+        0.272248959444051,
+        0.0010474741680716459,
+        0.0010473628279179005,
+        0.0010473165151525079
+      ]
+    },
+    {
+      "id": 84,
+      "title": "8e congrès du mouvement sunnite : les musulmans interpellés sur leurs droits et devoirs",
+      "date": "2013-04-01",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.64321343262737,
+        0.20719691985525163,
+        0.07958855246613815,
+        0.06880316512456759,
+        0.0011979299266727565
+      ]
+    },
+    {
+      "id": 85,
+      "title": "L'ambassadrice du Danemark a salué l'esprit de paix des musulmans du Burkina",
+      "date": "2006-02-13",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.926026552253884,
+        0.0017097479336414736,
+        0.0017098315553404594,
+        0.0017097792147337662,
+        0.06884408904240023
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Organisation du hadj : un imam demande une forte implication de l'État",
+      "date": "2008-01-29",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0004867773927316712,
+        0.00048675632958324527,
+        0.0004867531105850104,
+        0.9980529670530252,
+        0.00048674611407487257
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Mise en place du Sénat : les musulmans partants, les protestants dans l'expectative",
+      "date": "2013-09-15",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0006922716329513797,
+        0.0006921864202727707,
+        0.9972310970351742,
+        0.0006922944535030966,
+        0.0006921504580987116
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Mise en place du Sénat : la communauté musulmane donne son aval",
+      "date": "2013-09-14",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0009305352882603558,
+        0.0009304578505839712,
+        0.9962780334602498,
+        0.0009305623600367718,
+        0.0009304110408690501
+      ]
+    },
+    {
+      "id": 89,
+      "title": "7e édition du mois de la solidarité",
+      "date": "2012-01-08",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.19024868994878416,
+        0.5248727311098152,
+        0.0016004902511037172,
+        0.001600486516724954,
+        0.2816776021735719
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Enrôlement biométrique : le grand Imam de Ouagadougou invite les musulmans à s'enrôler",
+      "date": "2012-08-01",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9887293018010785,
+        0.002817795262794085,
+        0.0028179883269397357,
+        0.0028173439924371684,
+        0.0028175706167505774
+      ]
+    },
+    {
+      "id": 91,
+      "title": "La fête de la Tabaski sera célébrée le dimanche 6 octobre 2011 au Burkina",
+      "date": "2011-11-01",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.00202066803690507,
+        0.951929953698823,
+        0.0020205814061106508,
+        0.04200823926379625,
+        0.0020205575943651683
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Doua du 7e jour de El hadj Oumarou Kanazoé",
+      "date": "2011-10-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.5871615258342416,
+        0.18401647993694223,
+        0.2266592034174859,
+        0.0010813613632602729,
+        0.0010814294480699174
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Hadj 2013 : 500 pèlerins ont déjà quitté Ouagadougou",
+      "date": "2013-09-24",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0012743002350194576,
+        0.151304075425353,
+        0.0012744025927724242,
+        0.8448729626669478,
+        0.0012742590799074106
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Hommage à El Hadj Oumarou Kanazoé",
+      "date": "2011-10-25",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.6087501882750698,
+        0.386869080408571,
+        0.0014603306358561764,
+        0.0014601428087483938,
+        0.0014602578717546604
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Lutte contre le terrorisme : la FAIB réaffirme son soutien au président du Faso",
+      "date": "2018-03-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013797043846716628,
+        0.0013796707408712118,
+        0.8603143520567965,
+        0.0013795287322214598,
+        0.13554674408543918
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Projet de loi portant sur les libertés religieuses : l'UPC estime que les préoccupations des ulémas sont justes",
+      "date": "2017-01-12",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013425907677714554,
+        0.0013424473795904696,
+        0.862103967581168,
+        0.0013424094217856924,
+        0.13386858484968436
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Rupture de jeûne à Kosyam",
+      "date": "2017-06-22",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0008970786128471977,
+        0.3924674277926553,
+        0.6048414744903335,
+        0.0008969975896620887,
+        0.0008970215145018272
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Promotion de la paix FAIB et ONAFAR",
+      "date": "2016-08-08",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0027406714866371647,
+        0.002740079206440868,
+        0.6178245114636776,
+        0.0027404384396534976,
+        0.3739542994035907
+      ]
+    },
+    {
+      "id": 99,
+      "title": "L'opposition consulte les musulmans",
+      "date": "2014-08-31",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013796688606069162,
+        0.0013797192702698152,
+        0.9944813125645569,
+        0.0013796761325169252,
+        0.0013796231720495928
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Ramadan 2016 : le gouvernement offre 17 millions de F CFA de vivres",
+      "date": "2016-06-12",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000844112671198864,
+        0.3903411953789582,
+        0.30130736153957083,
+        0.0008441195339012472,
+        0.30666321087637083
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Réconciliation nationale : la communauté musulmane consultée",
+      "date": "2015-04-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0016533233696767497,
+        0.17973914917945696,
+        0.8153010994453409,
+        0.0016532145127610967,
+        0.0016532134927642829
+      ]
+    },
+    {
+      "id": 102,
+      "title": "La communauté musulmane affirme son soutien à Michel Kafando",
+      "date": "2015-01-25",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.002105831940431833,
+        0.002105591534504253,
+        0.9915771667300715,
+        0.0021058708293296615,
+        0.002105538965662701
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Soutien à l'action gouvernementale : « Douas » et onction pour Christophe Dabiré",
+      "date": "2019-02-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0011431552780944822,
+        0.0011432143874022577,
+        0.8452578063007116,
+        0.0011431800545838979,
+        0.15131264397920782
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Ramadan : les musulmans réaffirment leur attachement à la cohésion sociale",
+      "date": "2019-05-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0009480721318993615,
+        0.3388637154653429,
+        0.6582920944300682,
+        0.0009479952091186327,
+        0.0009481227635709865
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Dr Adama Ouédraogo : \"L'islam n'interdit pas de serrer la main d'un non musulman\"",
+      "date": "2016-07-04",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0004578050705291853,
+        0.8228344311090071,
+        0.17579215480491,
+        0.0004577791019977174,
+        0.0004578299135560275
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Fête de l'Aïd el fitr : le Président du Faso aux côtés des musulmans",
+      "date": "2015-07-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010155639102325926,
+        0.35852274089159686,
+        0.49660870069480506,
+        0.001015551155492002,
+        0.1428374433478735
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Hadj 2019 : 300 premiers pèlerins regagnent Ouagadougou",
+      "date": "2019-08-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0011836456606402832,
+        0.15975158873063783,
+        0.001183793893287184,
+        0.8366972821144603,
+        0.0011836896009743021
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Rupture collective de jeûne : les diplomates ont \"cassé leur carême\"",
+      "date": "2018-06-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013797700377220557,
+        0.5402720465964762,
+        0.2930421050759878,
+        0.0013796317029784939,
+        0.16392644658683528
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Prévention et gestion des conflits : l'ONAFAR outille ses membres",
+      "date": "2018-11-08",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.19267537346374367,
+        0.0016531676974304156,
+        0.8023648678783811,
+        0.0016532485527529254,
+        0.0016533424076917275
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Attaque Café Istanbul : la FAIB offre 1 250 000 F CFA aux blessés",
+      "date": "2017-08-15",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.009526573202278643,
+        0.009525196881997856,
+        0.9618975111301863,
+        0.009525186473313685,
+        0.009525532312223332
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Bousculade de Mina : les condoléances de la FAIB",
+      "date": "2015-10-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0015508220962239007,
+        0.3424027002260891,
+        0.0015508246690869845,
+        0.273710323754213,
+        0.3807853292543871
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Bousculade lors du Hadj 2015 : le bilan s'alourdit pour le Burkina",
+      "date": "2015-10-12",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.002740429655252628,
+        0.002740432916439921,
+        0.002740296615540667,
+        0.6749058805597363,
+        0.31687296025303047
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Burkina : la Tabaski sera célébrée le 4 octobre 2014",
+      "date": "2014-09-29",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.14775389900769795,
+        0.8055370701279329,
+        0.0030776774514028964,
+        0.04055346718320276,
+        0.0030778862297634007
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Burkina : le jeûne du ramadan commencera le 18 juin 2015",
+      "date": "2015-06-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.003279348349030934,
+        0.9868828208402181,
+        0.003279297243848783,
+        0.0032789743294937474,
+        0.0032795592374085377
+      ]
+    },
+    {
+      "id": 115,
+      "title": "FAIB : Aboubacar Maiga II nouveau Président de l'année du presidium",
+      "date": "2017-11-11",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.9703648930983818,
+        0.007408658617756308,
+        0.007408849818720484,
+        0.00740896428289846,
+        0.0074086341822428466
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Futur président du Faso : les 4 critères de la FAIB",
+      "date": "2015-11-14",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0009952824856761164,
+        0.5708065967650872,
+        0.42620765325826293,
+        0.0009951930392044274,
+        0.0009952744517693897
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Journée continue : le CERFI pose la question de la prière du vendredi",
+      "date": "2015-09-09",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.3330597791758238,
+        0.0011431533645210005,
+        0.0011433041857918241,
+        0.0011431267242446965,
+        0.6635106365496187
+      ]
+    },
+    {
+      "id": 118,
+      "title": "La fête de Ramadan prévue pour ce 17 juillet 2015",
+      "date": "2015-07-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.004652565884469244,
+        0.9813915885798157,
+        0.004652166740241895,
+        0.004651703334607085,
+        0.004651975460866086
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Le gouvernement retire le projet de loi sur les libertés religieuses",
+      "date": "2017-01-09",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.001802051756468845,
+        0.0018020414653241732,
+        0.6658131028281039,
+        0.0018021027258816888,
+        0.32878070122422137
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Lettre ouverte du Chef de file de l'opposition sur l'organisation du Hadj 2012",
+      "date": "2012-11-09",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0008812783835738065,
+        0.32313075745726516,
+        0.11664246100140595,
+        0.5584642093153944,
+        0.0008812938423607839
+      ]
+    },
+    {
+      "id": 121,
+      "title": "Salifou Diallo : \"L'Assemblée nationale n'acceptera pas qu'une loi vienne créer des problèmes à la population\"",
+      "date": "2017-01-09",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0012424741647560026,
+        0.0012425368209901487,
+        0.9280930905725882,
+        0.0012424578908389707,
+        0.06817944055082681
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Droit à l'alimentation : la Oumma Islamique soutient à 100%",
+      "date": "2018-01-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.25117676013624046,
+        0.0029855806957557814,
+        0.7398662075250888,
+        0.00298568658038066,
+        0.0029857650625343553
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Préservation de la paix au Burkina : 200 Imams-prédicateurs formés",
+      "date": "2017-12-24",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.3388123635277318,
+        0.2841339089047647,
+        0.11253265172743394,
+        0.0012906731853005666,
+        0.26323040265476894
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Rupture de jeûne au Palais présidentiel",
+      "date": "2017-06-22",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0023536835477653917,
+        0.5836672464352138,
+        0.40927200637390965,
+        0.0023533165455247827,
+        0.002353747097586317
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Bousculade à la Mecque : le gouvernement burkinabè a \"voulu garder une attitude prudente\"",
+      "date": "2015-10-13",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0015507358147195563,
+        0.0015507465149399643,
+        0.0015507159696497488,
+        0.5360699210010613,
+        0.4592778806996294
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Hadj 2016: \"Nous sommes prêts\" (Oumar Boni, président du Comité de suivi)",
+      "date": "2016-07-11",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0012906477465989734,
+        0.0012905509578339915,
+        0.0012906864387258938,
+        0.9948374265895625,
+        0.0012906882672785807
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Lucienne Zoma, vice-présidente Commission de réconciliation : \"Ce qui unit les Burkinabè, c'est leur foi en Dieu\"",
+      "date": "2015-04-17",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0020624077285131093,
+        0.25822642309569677,
+        0.7355868530642672,
+        0.0020621873381106693,
+        0.002062128773412201
+      ]
+    },
+    {
+      "id": 128,
+      "title": "ONAFAR ou la régulation de l'info religieuse",
+      "date": "2015-01-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.005129670329801819,
+        0.005129039914017423,
+        0.6750736489632816,
+        0.005129655914680222,
+        0.309537984878219
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Dernier acte : Me Gilbert Ouédraogo demande pardon aux musulmans",
+      "date": "2015-03-21",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.002299441426650256,
+        0.002299486761896919,
+        0.9908025869749163,
+        0.0022991947963005915,
+        0.0022992900402357607
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Attentats au Burkina : les associations islamiques viennent en soutien aux blessés",
+      "date": "2016-01-20",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0017705449998175638,
+        0.12499780540737838,
+        0.8696907652549052,
+        0.0017705434296440225,
+        0.0017703409082547763
+      ]
+    },
+    {
+      "id": 131,
+      "title": "Hadj 2016 : un quota de 5500 pèlerins accordé au Burkina",
+      "date": "2016-03-03",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0025980661494023278,
+        0.00259788686374475,
+        0.0025980315933562177,
+        0.9284106442799412,
+        0.06379537111355559
+      ]
+    },
+    {
+      "id": 132,
+      "title": "Bobo-Dioulasso : coalition des communautés religieuses contre la caricature de Charlie Hebdo",
+      "date": "2015-01-24",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.00157523425394082,
+        0.34839036954251673,
+        0.6468839533947895,
+        0.001575091160187026,
+        0.0015753516485657573
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Sénat : la communauté musulmane soutient la mise en place de l'Institution",
+      "date": "2013-09-14",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.24081733612976547,
+        0.0011837308675974954,
+        0.7556315926175434,
+        0.0011837304343442882,
+        0.001183609950749431
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Sénat : pour El Hadj Souleymane Compaoré, la subvention du Hadj est étrangère à la position de la communauté musulmane",
+      "date": "2013-09-15",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0011302988465993274,
+        0.0011303056369393008,
+        0.8487455177209435,
+        0.14786361019328378,
+        0.0011302676022340538
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Hadj 2016 : \"Cette année, les pèlerins seront mieux logés\", Cheick Omar Boni",
+      "date": "2016-08-20",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0009758817149365446,
+        0.0009758799632828748,
+        0.0009758236978037748,
+        0.9960966471935836,
+        0.0009757674303931712
+      ]
+    },
+    {
+      "id": 136,
+      "title": "Enrôlement biométrique : la communauté musulmane apporte la pierre de la prière",
+      "date": "2012-02-22",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.005716310641958876,
+        0.31337635824771387,
+        0.6694766266739006,
+        0.00571508352080013,
+        0.00571562091562645
+      ]
+    },
+    {
+      "id": 137,
+      "title": "Position des musulmans sur le sénat : l'AEEMB et le CERFI  ne se reconnaissent pas  dans celle de la FAIB",
+      "date": "2013-09-16",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.2945456825002253,
+        0.0019419681312575268,
+        0.6996283241077269,
+        0.0019419772440600058,
+        0.001942048016730332
+      ]
+    },
+    {
+      "id": 138,
+      "title": "Le Hadj 2019 coûtera 2 132 000 F CFA",
+      "date": "2019-04-18",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0011052058291554816,
+        0.001105209443555682,
+        0.0011053129210758582,
+        0.9955790211919542,
+        0.0011052506142587605
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Attaque de Dablo : la FAIB réagit",
+      "date": "2019-05-13",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0033905195882227277,
+        0.461761248095186,
+        0.2918930641098644,
+        0.003390221045768325,
+        0.2395649471609585
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Ramadan 2019 : les musulmans observeront la lune ce 3 juin",
+      "date": "2019-06-02",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.006452363553219403,
+        0.9741913054826754,
+        0.006451903939301868,
+        0.006451986992771819,
+        0.006452440032031617
+      ]
+    },
+    {
+      "id": 141,
+      "title": "Code des Personnes et de la Famille : la FAIB annonce un risque d'adoption d'un texte non consensuel",
+      "date": "2019-06-24",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.00350960634974014,
+        0.0035094125047311826,
+        0.0035101427338005437,
+        0.0035095298566749965,
+        0.9859613085550532
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Tabaski 2019 : le sermon de l'imam Alidou Ilboudo",
+      "date": "2019-08-12",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.00034670519046274816,
+        0.860509491191828,
+        0.07712038352143719,
+        0.061676710821481115,
+        0.0003467092747908833
+      ]
+    },
+    {
+      "id": 143,
+      "title": "Burkina : la délégation de l'ONI dans les locaux de la FAIB",
+      "date": "2019-10-30",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.547861892571418,
+        0.0014189043047072999,
+        0.2947051301338493,
+        0.07929469211449669,
+        0.07671938087552858
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Coopération : l'Arabie Saoudite offre le Coran traduit en français et en fulfundé au Burkina",
+      "date": "2019-11-21",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0011563818230025929,
+        0.47018827171049976,
+        0.20818878968168225,
+        0.3193100956375324,
+        0.0011564611472831214
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Burkina Faso : le Ramadan débute le 24 avril 2020",
+      "date": "2020-04-23",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.006898960987947936,
+        0.7001618741150907,
+        0.006898499425670681,
+        0.0068974096479688125,
+        0.2791432558233219
+      ]
+    },
+    {
+      "id": 146,
+      "title": "Réouverture des mosquées : la FAIB invite à la patience",
+      "date": "2020-05-02",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0028174359575233723,
+        0.0028173783472287476,
+        0.0028173572680642127,
+        0.0028172252845910404,
+        0.9887306031425926
+      ]
+    },
+    {
+      "id": 147,
+      "title": "Ramadan au Burkina Faso : des vivres pour la FAIB et l'association des maîtres coraniques",
+      "date": "2020-04-30",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0011699159956906,
+        0.45873629040381797,
+        0.0011699488579215958,
+        0.001169810444553869,
+        0.5377540342980159
+      ]
+    },
+    {
+      "id": 148,
+      "title": "COVID-19 au Burkina Faso : la FAIB annonce la réouverture des mosquées (communiqué)",
+      "date": "2020-05-02",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0024694623539968895,
+        0.0024696204828543017,
+        0.0024694507207598023,
+        0.0024693877902259,
+        0.9901220786521632
+      ]
+    },
+    {
+      "id": 149,
+      "title": "La jeunesse musulmane d'Afrique de l'Ouest se concerte à Ouaga",
+      "date": "2018-03-24",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.9937967960558116,
+        0.0015507849413268738,
+        0.0015508766848825223,
+        0.0015507368643452443,
+        0.0015508054536335007
+      ]
+    },
+    {
+      "id": 150,
+      "title": "COVID-19 au Burkina Faso : les mesures barrières enseignées à la grande Mosquée sunnite de Ouaga",
+      "date": "2020-05-08",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0008659655430600971,
+        0.276819966045306,
+        0.0008659472509854907,
+        0.0008659008390455828,
+        0.7205822203216028
+      ]
+    },
+    {
+      "id": 151,
+      "title": "COVID-19 au Burkina Faso : la FAIB souhaite des \"excuses publiques\" du ministre de la communication",
+      "date": "2020-05-14",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.00190547590357171,
+        0.0019051620767220505,
+        0.0019054170536285464,
+        0.0019056251411318857,
+        0.9923783198249458
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Burkina Faso : la fête de Ramadan aura lieu le 24 mai 2020",
+      "date": "2020-05-22",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.004445153526601102,
+        0.6507267736562594,
+        0.00444511638451229,
+        0.004444799495466904,
+        0.33593815693716017
+      ]
+    },
+    {
+      "id": 153,
+      "title": "Fin du Ramadan au Burkina Faso : observation de l'apparition de la lune le 22 mai 2020",
+      "date": "2020-05-19",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.00241048255036489,
+        0.7582221671247974,
+        0.0024101542751237535,
+        0.002409919038424318,
+        0.2345472770112896
+      ]
+    },
+    {
+      "id": 154,
+      "title": "Covid-19 au Burkina Faso : la Chine offre du matériel sanitaire à la FAIB",
+      "date": "2020-08-11",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.3787485115176649,
+        0.0021983882050466805,
+        0.42399544633535746,
+        0.002198343165916639,
+        0.19285931077601434
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Burkina : la FAIB appelle la communauté musulmane à la retenue",
+      "date": "2020-10-07",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.35523799403171163,
+        0.001980920143843369,
+        0.001980874994879396,
+        0.0019805343861621478,
+        0.6388196764434035
+      ]
+    },
+    {
+      "id": 156,
+      "title": "Réconciliation nationale : le HCRUN dans les locaux de la FAIB",
+      "date": "2020-09-17",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.05426602236920454,
+        0.001574966798046089,
+        0.9410090251736274,
+        0.0015749738729301333,
+        0.0015750117861917526
+      ]
+    },
+    {
+      "id": 157,
+      "title": "Réconciliation nationale au Burkina : Zéphirin Diabré demande conseils et soutien auprès de la FAIB",
+      "date": "2021-01-19",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.001274194251026936,
+        0.001274059101525768,
+        0.9949033436001501,
+        0.0012741516353372477,
+        0.0012742514119599348
+      ]
+    },
+    {
+      "id": 158,
+      "title": "Ramadan 2021 au Burkina Faso : des muezzins se préparent",
+      "date": "2021-04-09",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.24955122415592973,
+        0.7448398578891889,
+        0.0018695598233381772,
+        0.0018695501014787117,
+        0.0018698080300643424
+      ]
+    },
+    {
+      "id": 159,
+      "title": "Ramadan 2021 : le geste du ministère de la solidarité nationale à l'endroit de la FAIB et des maîtres coraniques",
+      "date": "2021-04-22",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.07895863021293541,
+        0.5305728710513149,
+        0.0019052194234576204,
+        0.001905137006023687,
+        0.3866581423062684
+      ]
+    },
+    {
+      "id": 160,
+      "title": "12e congrès ordinaire du CERFI : Abdoul Hamidou Yaméogo élu président du Bureau exécutif national",
+      "date": "2021-12-26",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.9912068199454013,
+        0.0021985772880639665,
+        0.002198238148175385,
+        0.0021981012792054557,
+        0.0021982633391539187
+      ]
+    },
+    {
+      "id": 161,
+      "title": "Affaire \"sécurité islamique\" : l'éclairage de la Fédération des associations islamiques",
+      "date": "2018-03-27",
+      "publisher": "Burkina 24",
+      "topic_weights": [
+        0.0015753726533181604,
+        0.0015750863316917009,
+        0.0015752042273605125,
+        0.0015752408619011064,
+        0.9936990959257286
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Premier congrès de la FAIB : sous le signe de la fraternité et de la cohésion",
+      "date": "2015-06-15",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6983682697863036,
+        0.0010054710804721283,
+        0.0010053783091524833,
+        0.0010053309451430435,
+        0.2986155498789287
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Le CERFI et l’AEEMB démentent les rumeurs et réaffirment leur soutien au choix de Newton Barry à la CENI au compte de la communauté musulmane",
+      "date": "2016-07-25",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.9896082894971812,
+        0.0025979817300174233,
+        0.002597992946966787,
+        0.002597849823280643,
+        0.002597886002553968
+      ]
+    },
+    {
+      "id": 164,
+      "title": "CENI : Newton Ahmed Barry remplace Me Barthélemy Keré",
+      "date": "2016-07-25",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.638756992138635,
+        0.0008232108462992573,
+        0.35877325335007065,
+        0.0008232666679673084,
+        0.0008232769970277689
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Sud-Ouest : la coordination régionale de la Fédération des associations islamiques installée",
+      "date": "2018-11-19",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.8272182817481679,
+        0.16572029824036713,
+        0.0023533116886302135,
+        0.0023545871661151616,
+        0.0023535211567193995
+      ]
+    },
+    {
+      "id": 166,
+      "title": "10ème Congrès ordinaire du CERFI, les 25, 26, 27 décembre 2015 : la Oumah islamique du Burkina Faso face aux mutations socio-politiques du pays",
+      "date": "2015-12-23",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.9926592283782443,
+        0.0018351254467291538,
+        0.0018353545765886902,
+        0.0018351708759874446,
+        0.0018351207224503586
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Conseil supérieur de la communication : « Lefaso.net » et la radio « Wat FM » auditionnés",
+      "date": "2016-12-14",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0028995204421072627,
+        0.00289944116057599,
+        0.43727496364342994,
+        0.002899049264989365,
+        0.5540270254888975
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Elections 2015 : la communauté musulmane définit les critères d'un bon choix",
+      "date": "2015-11-14",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0009854743547520683,
+        0.5622580302297189,
+        0.434785637490454,
+        0.0009853905903398985,
+        0.0009854673347353094
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Fédération des Associations Islamiques du Burkina : la section Ouest interpelle les responsables nationaux sur des faits peu islamiques",
+      "date": "2015-05-11",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.8257312876318386,
+        0.17207022214265272,
+        0.0007327933920709848,
+        0.0007328263428479138,
+        0.0007328704905897786
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Jeûne du Ramandan : début effectif ce jeudi 18 juin",
+      "date": "2015-06-17",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0021983071803085615,
+        0.9912075883084641,
+        0.002198159647900578,
+        0.0021979630894153955,
+        0.0021979817739112163
+      ]
+    },
+    {
+      "id": 171,
+      "title": "L’examen du projet de loi portant libertés religieuses reporté afin d'approfondir les concertations",
+      "date": "2017-01-09",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0027401458649494634,
+        0.002740058318143399,
+        0.5602819791937174,
+        0.0027402115561016528,
+        0.43149760506708806
+      ]
+    },
+    {
+      "id": 172,
+      "title": "L’UPC salue le retrait du projet de loi portant libertés religieuses au Burkina Faso",
+      "date": "2017-01-12",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0013796082711340853,
+        0.0013794783191410358,
+        0.9036157113042671,
+        0.0013794341412210044,
+        0.09224576796423667
+      ]
+    },
+    {
+      "id": 173,
+      "title": "La FAIB et l'ONAFAR chez le Ministre de la sécurité",
+      "date": "2016-08-02",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0024699807051453294,
+        0.0024694734082514732,
+        0.4221690012574801,
+        0.002469765465795203,
+        0.570421779163328
+      ]
+    },
+    {
+      "id": 174,
+      "title": "Mise en place du SENAT : le soutien franc des musulmans du Burkina ...",
+      "date": "2013-09-14",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.002817686655109511,
+        0.0028173446695604113,
+        0.9887298305532124,
+        0.002817785888166423,
+        0.0028173522339512776
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Mouloud : ce sera dans la nuit du vendredi 02 au samedi 03 janvier 2015",
+      "date": "2015-01-01",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.14736020502140915,
+        0.8460451744171156,
+        0.002198362125362235,
+        0.0021980404600079194,
+        0.0021982179761050025
+      ]
+    },
+    {
+      "id": 176,
+      "title": "Pour les musulmans du Burkina, \"Ces attaques perpétrées sont contraires à toutes les valeurs religieuses\"",
+      "date": "2016-01-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0018023300999578712,
+        0.6614309496379617,
+        0.33316199377246586,
+        0.0018023769981214662,
+        0.001802349491493164
+      ]
+    },
+    {
+      "id": 177,
+      "title": "Projet de loi sur les libertés religieuses : la Fédération des Associations Islamiques du Burkina remercie le Président du Faso pour le retrait",
+      "date": "2017-01-18",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.001399078651653498,
+        0.0013988590813408322,
+        0.9944043901483715,
+        0.0013988526741165674,
+        0.0013988194445176691
+      ]
+    },
+    {
+      "id": 178,
+      "title": "Ramadan : le CERFI et l'AEEMB organisent la Grande Nuit du Destin 2016",
+      "date": "2016-06-30",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.29456615848882156,
+        0.7001229709811599,
+        0.001770417982142532,
+        0.001770267056624862,
+        0.0017701854912510007
+      ]
+    },
+    {
+      "id": 179,
+      "title": "Ramadan 2014 : la Commission Nationale d'Observation de la Lune siège ce vendredi 27 juin",
+      "date": "2014-06-27",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.5134094518715074,
+        0.48108457261781334,
+        0.001835164937202456,
+        0.0018354128454831625,
+        0.0018353977279933883
+      ]
+    },
+    {
+      "id": 180,
+      "title": "Ramadan 2015 : la Commission Nationale d'Observation de la lune siégera ce jeudi 16 juillet 2015",
+      "date": "2015-07-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.2679662376002836,
+        0.7225073350050821,
+        0.003175507123985927,
+        0.0031753110136968766,
+        0.003175609256951577
+      ]
+    },
+    {
+      "id": 181,
+      "title": "Religion : la fête de l'Aîd El Fitr sera célébrée le Vendredi 17 juillet 2015",
+      "date": "2015-07-17",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0021059520590166448,
+        0.991577167385118,
+        0.0021057628101288995,
+        0.0021055224622660677,
+        0.0021055952834704273
+      ]
+    },
+    {
+      "id": 182,
+      "title": "Sénat : l’AEEMB et le CERFI se démarquent des propos de Souleymane Compaoré",
+      "date": "2013-09-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.32027927177919563,
+        0.0010813496999219766,
+        0.6764767526811543,
+        0.0010812721858504454,
+        0.0010813536538776427
+      ]
+    },
+    {
+      "id": 183,
+      "title": "Situation nationale : les autorités coutumières et religieuses invitent les Burkinabè à  avoir un comportement responsable et patriotique",
+      "date": "2018-10-02",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00487883883286243,
+        0.4024593231255884,
+        0.32257324412825716,
+        0.004878964025896003,
+        0.26520962988739605
+      ]
+    },
+    {
+      "id": 184,
+      "title": "Tabaski 2014 : la fête aura lieu le 4 octobre",
+      "date": "2014-09-30",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0022480329884511352,
+        0.9659500522455361,
+        0.002247706328358869,
+        0.027306442443389877,
+        0.002247765994264042
+      ]
+    },
+    {
+      "id": 185,
+      "title": "Mise en place du Sénat : la Communauté musulmane veut mieux comprendre la position des différentes parties",
+      "date": "2013-08-23",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0010585028321171213,
+        0.0010584381042549938,
+        0.9957663839389965,
+        0.0010583292092126019,
+        0.0010583459154187107
+      ]
+    },
+    {
+      "id": 186,
+      "title": "4e édition de la Journée de solidarité islamique : des bienfaiteurs aux côtés des malades",
+      "date": "2017-06-11",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6540958312523929,
+        0.34164752585715413,
+        0.0014189038213315026,
+        0.001418834170490908,
+        0.001418904898630454
+      ]
+    },
+    {
+      "id": 187,
+      "title": "Boulmtoré : la Fondation Hadja Bibata inaugure la maison d’Allah",
+      "date": "2016-04-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.2956632638380903,
+        0.31758611914819845,
+        0.16456518795971728,
+        0.0013990659954186196,
+        0.2207863630585753
+      ]
+    },
+    {
+      "id": 188,
+      "title": "Carnet d'audiences : le Président Michel Kafando reçoit la Fédération des associations islamiques du Burkina",
+      "date": "2015-01-24",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0025321249050957073,
+        0.002532411796531105,
+        0.9898713323961713,
+        0.002531970412192287,
+        0.0025321604900095506
+      ]
+    },
+    {
+      "id": 189,
+      "title": "Dieu, Allah et les \"coutumiers\" appelés à la rescousse du projet de Sénat au Burkina Faso",
+      "date": "2013-09-20",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0006311659273740719,
+        0.0006311319755211768,
+        0.9603762241525287,
+        0.0006310811787881243,
+        0.0377303967657881
+      ]
+    },
+    {
+      "id": 190,
+      "title": "Lutte contre le terrorisme : « La solution militaire, oui ; mais Il faut un dialogue permanent entre l’administration et les confessions religieuses », Amadou Sanogo, président de l’Association pour la mémorisation du Coran",
+      "date": "2017-03-31",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0007492822330147137,
+        0.18903867810257452,
+        0.555280436270809,
+        0.20301760191906884,
+        0.05191400147453284
+      ]
+    },
+    {
+      "id": 191,
+      "title": "Assemblée nationale : Alassane Bala Sakandé s'abreuve à la source des autorités coutumières et religieuses",
+      "date": "2017-09-20",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0004891365869225968,
+        0.055391341515654384,
+        0.9431413028347418,
+        0.0004891048670020518,
+        0.0004891141956791038
+      ]
+    },
+    {
+      "id": 192,
+      "title": "CERFI : Moussa Nombo passe le flambeau à Souleymane Koné",
+      "date": "2016-01-11",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6583278390208129,
+        0.18443435216092519,
+        0.15532355247975566,
+        0.000957118190504454,
+        0.0009571381480017672
+      ]
+    },
+    {
+      "id": 193,
+      "title": "Démocratie et sécurité : la contribution des musulmans au cœur d'un colloque international",
+      "date": "2017-11-01",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.2795376565665357,
+        0.20185500312895438,
+        0.4021593403200526,
+        0.0011301894908377782,
+        0.11531781049361961
+      ]
+    },
+    {
+      "id": 194,
+      "title": "Finance islamique : après plus de 6000 clients au Burkina, Coris Baraka veut désormais conquérir la sous-région",
+      "date": "2018-01-29",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.20180298119338716,
+        0.0013426099165552937,
+        0.6822304872006975,
+        0.11328128756084313,
+        0.0013426341285170118
+      ]
+    },
+    {
+      "id": 195,
+      "title": "Hadj 2018 : le comité burkinabè de suivi primé en Arabie Saoudite pour la qualité de l'organisation",
+      "date": "2018-09-30",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0014186777082165782,
+        0.0014186229521694306,
+        0.0014186483552427343,
+        0.994325359895383,
+        0.0014186910889882583
+      ]
+    },
+    {
+      "id": 196,
+      "title": "Libertés religieuses au Burkina : l’Assemblée nationale diffère l’examen du projet de loi y relatif",
+      "date": "2017-01-10",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0005450894496974215,
+        0.0005450597811702784,
+        0.7769284797202644,
+        0.0005450710260718089,
+        0.22143630002279593
+      ]
+    },
+    {
+      "id": 197,
+      "title": "Mouloud 2015 : à Ramatoulaye, les fidèles musulmans ont prié pour la cohésion sociale",
+      "date": "2015-01-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0007724391223432291,
+        0.7075125508309351,
+        0.20430394688255238,
+        0.0007724485815065691,
+        0.08663861458266271
+      ]
+    },
+    {
+      "id": 198,
+      "title": "Moussa Nombo, président du CERFI : \"L'organisation du Hadj ne saurait être un deal\"",
+      "date": "2013-07-08",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.04665322979328796,
+        0.4584184351156325,
+        0.0002181586660907774,
+        0.49449201845900076,
+        0.00021815796598787565
+      ]
+    },
+    {
+      "id": 199,
+      "title": "Ramadan 2017 : le Président du Faso participe à une rupture collective de jeûne",
+      "date": "2017-06-23",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0007970374880232147,
+        0.2651150592809,
+        0.732494001778543,
+        0.0007969366084348764,
+        0.000796964844098901
+      ]
+    },
+    {
+      "id": 200,
+      "title": "Reconstruction de la mosquée de l’AEEMB : un complexe culturel islamique moderne en perspective",
+      "date": "2012-09-11",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.5564083949850595,
+        0.07712020174338886,
+        0.0009572489417259575,
+        0.0009573169181734114,
+        0.3645568374116522
+      ]
+    },
+    {
+      "id": 201,
+      "title": "Situation nationale : les cadres et intellectuels musulmans tirent les enseignements",
+      "date": "2015-06-08",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6589799625935604,
+        0.20448361227809536,
+        0.13405135111090088,
+        0.0012424605249781906,
+        0.0012426134924652396
+      ]
+    },
+    {
+      "id": 202,
+      "title": "Fondation Aly Gourga pour la foi et la solidarité : les activités sont désormais lancées",
+      "date": "2016-05-25",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.320572204032814,
+        0.369206184577596,
+        0.20612753800376657,
+        0.001169898410835254,
+        0.10292417497498818
+      ]
+    },
+    {
+      "id": 203,
+      "title": "AEEMB : \"Aujourd'hui, c'est une association de référence dans le milieu musulman\", dixit le président, Ali Sawadogo",
+      "date": "2016-08-29",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.5297915262909922,
+        0.25752897494764665,
+        0.21192030814711293,
+        0.00037958997053729403,
+        0.00037960064371108797
+      ]
+    },
+    {
+      "id": 204,
+      "title": "\"Le Burkina fait face à une crise multidimensionnelle jamais égalée\", note le président de la CODER, Dr Ablassé Ouédraogo",
+      "date": "2016-11-23",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.17768300952845706,
+        0.0009481976758407638,
+        0.8194725968884602,
+        0.0009481232043452631,
+        0.0009480727028966686
+      ]
+    },
+    {
+      "id": 205,
+      "title": "Dialogue interreligieux au Burkina : faire de cette \"réalité\", une véritable culture",
+      "date": "2015-02-19",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0007665097939585828,
+        0.0007664571292919127,
+        0.7945673998923138,
+        0.0007665473073972215,
+        0.2031330858770386
+      ]
+    },
+    {
+      "id": 206,
+      "title": "Zéphirin Diabré à la communauté musulmane : \"Notre souhait est que le camp d'en face respecte la constitution\"",
+      "date": "2014-08-31",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.001379714766390191,
+        0.0013798019535994654,
+        0.9944809152286113,
+        0.0013797428368178331,
+        0.0013798252145812318
+      ]
+    },
+    {
+      "id": 207,
+      "title": "Lettre ouverte au Présidium de la Fédération des associations islamiques du Burkina",
+      "date": "2014-11-30",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.49893446235087235,
+        0.3848909598530846,
+        0.0008513546409849017,
+        0.000851284302037748,
+        0.11447193885302039
+      ]
+    },
+    {
+      "id": 208,
+      "title": "Projet de loi sur les libertés religieuses : les associations islamiques demandent le retrait",
+      "date": "2017-01-07",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0006350674922435547,
+        0.0006350306304428051,
+        0.749948735165469,
+        0.0006350142270643455,
+        0.24814615248478025
+      ]
+    },
+    {
+      "id": 209,
+      "title": "Attaque du café Aziz Istanbul : les musulmans du Burkina Faso condamnent \"cette indignité humaine\"",
+      "date": "2017-08-15",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0019424432714403147,
+        0.4246770483120368,
+        0.5694956987080196,
+        0.0019424269366309537,
+        0.0019423827718722609
+      ]
+    },
+    {
+      "id": 210,
+      "title": "Assemblée générale du CERFI : jeter les bases d'une année charnière à plus d'un titre",
+      "date": "2015-01-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.9955297872509146,
+        0.0011175340460121991,
+        0.0011176751227415787,
+        0.0011175336984838003,
+        0.0011174698818476735
+      ]
+    },
+    {
+      "id": 211,
+      "title": "Ambassade des Etats-Unis au Burkina Faso : la liberté et la tolérance religieuse au cœur d'un échange",
+      "date": "2017-11-17",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0008099110778812566,
+        0.0008099121353906776,
+        0.8740618246952335,
+        0.0008099512619297426,
+        0.12350840082956475
+      ]
+    },
+    {
+      "id": 212,
+      "title": "Associations islamiques du Burkina : le Haut conseil pour la réconciliation et l'unité nationale veut renforcer la collaboration",
+      "date": "2016-07-21",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.16235064619284945,
+        0.0013074929461359419,
+        0.8337269662618086,
+        0.0013074785118671038,
+        0.0013074160873389063
+      ]
+    },
+    {
+      "id": 213,
+      "title": "Attaques terroristes à Ouagadougou : la FAIB vole au secours des blessés",
+      "date": "2016-01-21",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.001379776841942923,
+        0.0013797642887504614,
+        0.9944810978864964,
+        0.001379699642020229,
+        0.0013796613407897537
+      ]
+    },
+    {
+      "id": 214,
+      "title": "Drame survenu à la Mecque : \"22 décès du côté des pèlerins burkinabé\", dixit le MATD",
+      "date": "2015-10-14",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.000760668312365622,
+        0.10420166972298951,
+        0.0007606901400223107,
+        0.7073115588091858,
+        0.1869654130154367
+      ]
+    },
+    {
+      "id": 215,
+      "title": "Fédération des associations islamiques du Burkina : Cheick Sidi Mohamed Koné est le nouveau secrétaire exécutif national",
+      "date": "2015-06-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.995090394260879,
+        0.0012273748235375904,
+        0.001227463150443233,
+        0.0012272870273754078,
+        0.001227480737764832
+      ]
+    },
+    {
+      "id": 216,
+      "title": "Lutte contre le terrorisme : les associations islamiques du Burkina réitèrent leur soutien au président Kaboré",
+      "date": "2018-03-19",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0016535026533947977,
+        0.0016533162289834305,
+        0.8116995339186787,
+        0.0016532061700690326,
+        0.183340441028874
+      ]
+    },
+    {
+      "id": 217,
+      "title": "Solidarité : l'Arabie Saoudite offre 1865 carcasses de viande aux populations vulnérables",
+      "date": "2018-01-29",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0012742386332174431,
+        0.03806848581380211,
+        0.42835963107691494,
+        0.43280579712902506,
+        0.09949184734704043
+      ]
+    },
+    {
+      "id": 218,
+      "title": "Rencontre PF-Communautés religieuses sur le Sénat : protestants et musulmans dit oui",
+      "date": "2013-09-15",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0017100297828234968,
+        0.00170967939781004,
+        0.9931605382605505,
+        0.0017099736230343696,
+        0.0017097789357816244
+      ]
+    },
+    {
+      "id": 219,
+      "title": "11e congrès ordinaire du CERFI : présentation du bilan et renouvellement des instances à l’ordre du jour",
+      "date": "2018-12-24",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.9949034241549515,
+        0.0012742309673095182,
+        0.0012741886007772887,
+        0.001274038040597621,
+        0.0012741182363640126
+      ]
+    },
+    {
+      "id": 220,
+      "title": "Lutte contre le terrorisme : la cellule juridique du Cercle d'études, de recherches et de formation islamiques scrute l’horizon",
+      "date": "2019-01-07",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.23634456856857275,
+        0.10859169717790561,
+        0.6534823605391934,
+        0.0007906643459597069,
+        0.000790709368368611
+      ]
+    },
+    {
+      "id": 221,
+      "title": "Ramadan Market : un espace à la fois spirituel, social et commercial",
+      "date": "2019-05-09",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.26357622426613503,
+        0.5882692627650531,
+        0.0009572078660386767,
+        0.1462400776006168,
+        0.0009572275021563151
+      ]
+    },
+    {
+      "id": 222,
+      "title": "Sermon fête de Ramadan : le CERFI recommande un « pacte républicain » au président Kaboré",
+      "date": "2019-06-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00025613027732001204,
+        0.9420624864501332,
+        0.057169122678202615,
+        0.0002561237520755464,
+        0.00025613684226870255
+      ]
+    },
+    {
+      "id": 223,
+      "title": "Relecture du Code des personnes et de la famille : la FAIB déplore \"le fait qu'elle n’ait été ni impliquée ni consultée\"",
+      "date": "2019-06-24",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0020623943993493014,
+        0.0020625975318522014,
+        0.22893639471638144,
+        0.002062268886734887,
+        0.7648763444656822
+      ]
+    },
+    {
+      "id": 224,
+      "title": "Tabaski 2019 : sermon de la prière de l'AEEMB et du CERFI",
+      "date": "2019-08-11",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00036175462900671655,
+        0.9666032583738883,
+        0.0003617806872296044,
+        0.03231145330588562,
+        0.0003617530039898195
+      ]
+    },
+    {
+      "id": 225,
+      "title": "Caravane de l’UFC-Dori : les pèlerins de la paix sont arrivés à Ouagadougou",
+      "date": "2019-09-13",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0006921934902038414,
+        0.15972942901019604,
+        0.8246371335800696,
+        0.014249053136432195,
+        0.0006921907830984137
+      ]
+    },
+    {
+      "id": 226,
+      "title": "5e Recensement de la population : la Fédération des associations islamiques promet de s’impliquer dans la sensibilisation",
+      "date": "2019-10-25",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0017397044347751208,
+        0.0017394703936134393,
+        0.5913676812115213,
+        0.0017394718465875531,
+        0.40341367211350254
+      ]
+    },
+    {
+      "id": 227,
+      "title": "Insécurité au Burkina : « Ne nous trompons pas d’adversaire », invite la fédération des associations islamiques",
+      "date": "2020-01-26",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0005572311717744751,
+        0.11374227328100725,
+        0.8226711911038573,
+        0.0005572289033161444,
+        0.062472075540044913
+      ]
+    },
+    {
+      "id": 228,
+      "title": "Coronavirus : les corps constitués du Sud-Ouest sensibilisés aux mesures sanitaires",
+      "date": "2020-03-19",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.001739674769379511,
+        0.0017398393611143498,
+        0.33725582154180567,
+        0.0017394525109709028,
+        0.6575252118167296
+      ]
+    },
+    {
+      "id": 229,
+      "title": "Mosquée sunnite de Ouagadougou : la suspension temporaire des prières au centre du sermon de vendredi",
+      "date": "2020-03-21",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0009757719935665275,
+        0.3986609831989016,
+        0.0009757890107807485,
+        0.0009757377603188268,
+        0.5984117180364323
+      ]
+    },
+    {
+      "id": 230,
+      "title": "COVID-19 : le Réseau des Journalistes et Communicateurs Musulmans du Burkina Faso appelle les populations à plus d’abnégation dans le respect des décisions gouvernementales",
+      "date": "2020-04-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0014819688137029654,
+        0.5797196904466848,
+        0.001481950426985565,
+        0.0014819014500384523,
+        0.4158344888625883
+      ]
+    },
+    {
+      "id": 231,
+      "title": "Réouverture des mosquées : chaude journée à la Fédération des associations islamiques",
+      "date": "2020-05-02",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0020624404094992054,
+        0.10894332147744866,
+        0.002062192054609665,
+        0.0020620736114581786,
+        0.8848699724469843
+      ]
+    },
+    {
+      "id": 232,
+      "title": "Ramadan 2020 : les fidèles musulmans invités à plus d’action et de prières en faveur du Burkina Faso",
+      "date": "2020-05-02",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.297485144383478,
+        0.6997488841879891,
+        0.0009219925446826426,
+        0.0009219676558333938,
+        0.0009220112280169597
+      ]
+    },
+    {
+      "id": 233,
+      "title": "COVID-19 : les autorités burkinabè autorisent la réouverture des mosquées",
+      "date": "2020-05-03",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0011699267571257828,
+        0.11548072551089356,
+        0.0011698271291217639,
+        0.0011699359431348315,
+        0.881009584659724
+      ]
+    },
+    {
+      "id": 234,
+      "title": "Hadj 2018 : le comité de suivi installé",
+      "date": "2018-03-20",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0011978507485578044,
+        0.0011977067152713185,
+        0.0011977710686927184,
+        0.9952088052677829,
+        0.0011978661996951852
+      ]
+    },
+    {
+      "id": 235,
+      "title": "Réouverture des lieux de culte : le Réseau des journalistes et communicateurs musulmans appelle à la compréhension mutuelle",
+      "date": "2020-05-05",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0016533824125679326,
+        0.5479235459840647,
+        0.0016532939972300677,
+        0.001653088456011024,
+        0.4471166891501263
+      ]
+    },
+    {
+      "id": 236,
+      "title": "Réouverture des mosquées : le non-respect des gestes barrières est déjà constaté",
+      "date": "2020-05-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.194318698790133,
+        0.0010813613604432905,
+        0.001081274212310225,
+        0.0010812346907867428,
+        0.8024374309463268
+      ]
+    },
+    {
+      "id": 237,
+      "title": "Covid-19 : la Communauté Ahmaddiya maintient ses mosquées fermées",
+      "date": "2020-05-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0033908943005289474,
+        0.32867199062748587,
+        0.17223614922550906,
+        0.003390455449980116,
+        0.4923105103964959
+      ]
+    },
+    {
+      "id": 238,
+      "title": "Réouverture des mosquées du CERFI : elle se fera sous certaines conditions",
+      "date": "2020-05-04",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.21966493250283795,
+        0.0012123913756213946,
+        0.0012123630036518008,
+        0.0012122644897007103,
+        0.7766980486281881
+      ]
+    },
+    {
+      "id": 239,
+      "title": "Réouverture des mosquées à Bobo-Dioulasso : les imams sensibilisent pour un respect total des mesures barrières contre le Covid-19",
+      "date": "2020-05-06",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0009480555897507663,
+        0.0009481771473558297,
+        0.0009480062426066358,
+        0.0009479789034722654,
+        0.9962077821168145
+      ]
+    },
+    {
+      "id": 240,
+      "title": "Sortie du ministre de la communication du 13 mai 2020 : la FAIB dénonce une stigmatisation",
+      "date": "2020-05-14",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0014392788917086707,
+        0.0014394708728099257,
+        0.29352081260278934,
+        0.0014392744244950727,
+        0.7021611632081969
+      ]
+    },
+    {
+      "id": 241,
+      "title": "Rémis Fulgance Dandjinou présente ses excuses à la FAIB",
+      "date": "2020-05-15",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.003922306441737718,
+        0.003921773160543998,
+        0.003922178057853865,
+        0.003922919268987641,
+        0.9843108230708768
+      ]
+    },
+    {
+      "id": 242,
+      "title": "Affaire \"sécurité islamique\" à Pouytenga : la FAIB a rencontré les responsables",
+      "date": "2018-03-27",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0016811542918793811,
+        0.0016809742891544283,
+        0.0016810931590874973,
+        0.001681152959079343,
+        0.9932756253007994
+      ]
+    },
+    {
+      "id": 243,
+      "title": "Covid-19 : la Fête de l'Aïd El Fitr dans le strict respect des mesures barrières et l'abstinence des visites dans les familles",
+      "date": "2020-05-22",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.1595601922920623,
+        0.40783327493391397,
+        0.0012426408237698023,
+        0.0012426567174458325,
+        0.43012123523280815
+      ]
+    },
+    {
+      "id": 244,
+      "title": "Ramadan à Bobo-Dioulasso : quand des fidèles prient pour l'éradication du Covid-19 sans respecter les mesures barrières",
+      "date": "2020-05-24",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0005306966684963644,
+        0.6677853639828746,
+        0.0005306638541622173,
+        0.0005306666993366456,
+        0.3306226087951301
+      ]
+    },
+    {
+      "id": 245,
+      "title": "Le Ramadan, c'est le dimanche 24 mai 2020 au Burkina",
+      "date": "2020-05-23",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0017705716235440318,
+        0.8551186157671875,
+        0.0017703661553889125,
+        0.0017705496903114375,
+        0.13956989676356812
+      ]
+    },
+    {
+      "id": 246,
+      "title": "L'Aïd El Fitr 2020 : Imam Tiégo Tiemtoré appelle à plus de solidarité envers les personnes éprouvées par les actes terroristes et le COVID-19",
+      "date": "2020-05-24",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00024425587887488603,
+        0.9770242877310635,
+        0.00024426379002533534,
+        0.00024424610574007587,
+        0.022242946494296135
+      ]
+    },
+    {
+      "id": 247,
+      "title": "Elections de 2020 au Burkina : journalistes et communicateurs musulmans en formation sur le discours électoral",
+      "date": "2020-10-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.223936797089167,
+        0.0016004235849135337,
+        0.5969462321061743,
+        0.001600408436853275,
+        0.17591613878289192
+      ]
+    },
+    {
+      "id": 248,
+      "title": "Dénouement de crises au sein de la Communauté musulmane du Burkina Faso et à Loropéni et situation pendante à Pazanni : le point de vue de l'ATR/DI",
+      "date": "2020-10-01",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0009953016386112495,
+        0.0009952934588798915,
+        0.9069577303446924,
+        0.0009952131091887464,
+        0.09005646144862767
+      ]
+    },
+    {
+      "id": 249,
+      "title": "Burkina Faso : le Maouloud 2020 aura lieu dans la nuit du mercredi 28 au jeudi 29 octobre",
+      "date": "2020-10-20",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.003078045484623672,
+        0.9876881841857243,
+        0.0030780801326735505,
+        0.0030775627565074273,
+        0.003078127440471127
+      ]
+    },
+    {
+      "id": 250,
+      "title": "Destruction de mosquée à Pazanni : les musulmans appelés au calme",
+      "date": "2020-10-07",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.002247803665857505,
+        0.397005484975467,
+        0.002247903166949381,
+        0.0022474618736065886,
+        0.5962513463181195
+      ]
+    },
+    {
+      "id": 251,
+      "title": "Dialogue islamo-chrétien : \"Les diverses communautés doivent s'accepter davantage et respecter les différences doctrinales\", abbé Etienne Kaboré",
+      "date": "2021-01-08",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0007907302014606638,
+        0.1392863707853643,
+        0.8583414724531511,
+        0.0007906672879094363,
+        0.0007907592721145537
+      ]
+    },
+    {
+      "id": 252,
+      "title": "Ramadan 2021 : \"C'est l'heure de la solidarité et de la générosité\", dixit El Hadj Aminou Ouédraogo, président du CERFI",
+      "date": "2021-04-12",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.06882280398041028,
+        0.9286016679834074,
+        0.0008585264597791315,
+        0.0008585127680823662,
+        0.000858488808320745
+      ]
+    },
+    {
+      "id": 253,
+      "title": "Affaire \"Mosquée de Panzani\" : le gouvernement attribue le terrain litigieux à la fédération des associations islamiques",
+      "date": "2021-05-06",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.003279303657133332,
+        0.0032790192664887935,
+        0.0032793713906508217,
+        0.0032792590361860317,
+        0.9868830466495411
+      ]
+    },
+    {
+      "id": 254,
+      "title": "Affaire de Pazani : selon le ministre Clément Sawadogo, le propriétaire légal a cédé volontairement son terrain",
+      "date": "2021-05-08",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0029857492076854892,
+        0.002985480249357815,
+        0.002986253139441354,
+        0.08281787952179896,
+        0.9082246378817165
+      ]
+    },
+    {
+      "id": 255,
+      "title": "Affaire \"Mosquée de Panzani\" : Eddie Komboigo craint qu'on ne replonge dans une autre crise",
+      "date": "2021-05-07",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0017395016942573101,
+        0.0017393420117665095,
+        0.0017397856149957123,
+        0.0017393662377461945,
+        0.9930420044412342
+      ]
+    },
+    {
+      "id": 256,
+      "title": "Lutte contre l'extrémisme violent : la ligue des Oulamas, Imams et Prêcheurs du Sahel mène la réflexion autour de la radicalisation",
+      "date": "2021-07-05",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.574108303022626,
+        0.23167082178549697,
+        0.11433924833334085,
+        0.0008586047411535987,
+        0.07902302211738252
+      ]
+    },
+    {
+      "id": 257,
+      "title": "Commission électorale nationale indépendante (CENI) du Burkina : la communauté musulmane remplace Newton Ahmed Barry par le magistrat Adama Kafando",
+      "date": "2021-07-18",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6554844541781982,
+        0.0031750619389400376,
+        0.33498933586279744,
+        0.0031756475873707794,
+        0.0031755004326935485
+      ]
+    },
+    {
+      "id": 258,
+      "title": "Burkina : la communauté musulmane resserre les rangs pour faire face aux défis de l'heure",
+      "date": "2021-08-07",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.6839969181197573,
+        0.002532153433199955,
+        0.3084060913039473,
+        0.002532306327664745,
+        0.002532530815430625
+      ]
+    },
+    {
+      "id": 259,
+      "title": "Alssane Sakandé : \"Dans les familles, nous avons, peut-être de mêmes père et mère, des musulmans, des chrétiens ou des traditionnalistes\"",
+      "date": "2021-08-08",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.23835929682561402,
+        0.0008585658038710582,
+        0.7590649471246553,
+        0.000858576643395268,
+        0.0008586136024642727
+      ]
+    },
+    {
+      "id": 260,
+      "title": "Religion : \"Les défis actuels, ce sont les défis du pays : les défis de contribution à la sécurité\", estime le nouveau président du CERFI, El Hadj Yaméogo",
+      "date": "2021-12-27",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.9952650549664505,
+        0.0011836696950819879,
+        0.0011838045168752812,
+        0.001183750771408241,
+        0.0011837200501840538
+      ]
+    },
+    {
+      "id": 261,
+      "title": "Blaise se trompe de majorité",
+      "date": "2014-05-15",
+      "publisher": "Mutations",
+      "topic_weights": [
+        0.14482014192403803,
+        0.0008301305983119878,
+        0.8526894552370049,
+        0.0008300850619133609,
+        0.0008301871787318256
+      ]
+    },
+    {
+      "id": 262,
+      "title": "François et Assimi veulent la tête de l'Imam Sana",
+      "date": "2014-08-01",
+      "publisher": "Mutations",
+      "topic_weights": [
+        0.6762038931786442,
+        0.21766503875751492,
+        0.10519406243526015,
+        0.00046846370298112244,
+        0.0004685419255996949
+      ]
+    },
+    {
+      "id": 263,
+      "title": "Crise au sein de la communauté musulmane : \"Le linge sale se lave en famille\", dixit El Hadj Abdourasmané Sana",
+      "date": "2016-08-03",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.9986988206847379,
+        0.00032531829129851033,
+        0.000325297332471271,
+        0.00032527053612643573,
+        0.0003252931553659525
+      ]
+    },
+    {
+      "id": 264,
+      "title": "Crise au sein de la communauté musulmane : des fidèles interpellent le gouvernement",
+      "date": "2016-08-01",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.8696346137208214,
+        0.0007969947024952154,
+        0.0007970458386988682,
+        0.0007970341724779739,
+        0.12797431156550662
+      ]
+    },
+    {
+      "id": 265,
+      "title": "Les catholiques rejettent, les musulmans bénissent et les protestants…",
+      "date": "2013-09-15",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0003869550092449101,
+        0.07734625682889487,
+        0.8959218149610487,
+        0.0003869556542541593,
+        0.025958017546557164
+      ]
+    },
+    {
+      "id": 266,
+      "title": "Coordination des associations islamiques de l'Ouest : pour une dynamisation de la commission d'observation de la lune",
+      "date": "2015-05-11",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.385560394466864,
+        0.44005066804581394,
+        0.0015506786070685716,
+        0.17128735489003533,
+        0.0015509039902180937
+      ]
+    },
+    {
+      "id": 267,
+      "title": "Lettre ouverte de l'AEEMB et du CERFI au Présidium de la FAIB : au nom de Dieu Clément et Miséricordieux",
+      "date": "2013-09-15",
+      "publisher": "Mutations",
+      "topic_weights": [
+        0.2545988529727318,
+        0.0013426105785341628,
+        0.7413733426740561,
+        0.0013425531061394783,
+        0.0013426406685386127
+      ]
+    },
+    {
+      "id": 268,
+      "title": "El Hadj Oumarou Kanazoé : un modèle de combativité",
+      "date": "2011-12-01",
+      "publisher": "Mutations",
+      "topic_weights": [
+        0.7778005404612154,
+        0.07156440182045931,
+        0.0003540923174679371,
+        0.04744250993900765,
+        0.1028384554618496
+      ]
+    },
+    {
+      "id": 269,
+      "title": "Rupture du jeûne musulmane : le ministre Alpha Barry des diplomates communient autour d'un repas",
+      "date": "2018-06-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0015752453092856874,
+        0.37678122767913963,
+        0.20625169114410094,
+        0.16184250441984763,
+        0.25354933144762615
+      ]
+    },
+    {
+      "id": 270,
+      "title": "Chômage des jeunes : l'AEEMB, à la recherche de solutions",
+      "date": "2017-08-24",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.8011951780417581,
+        0.0015506832718961074,
+        0.194152698879809,
+        0.0015507257278005845,
+        0.0015507140787362696
+      ]
+    },
+    {
+      "id": 271,
+      "title": "Journée continue à la fonction publique : le CERFI dénonce une non-prise en compte des préoccupations des musulmans",
+      "date": "2015-09-10",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.3753199264182872,
+        0.0009758638538815337,
+        0.0009759037621275797,
+        0.0009758282225665945,
+        0.6217524777431371
+      ]
+    },
+    {
+      "id": 272,
+      "title": "Lutte contre le terrorisme au Burkina : les coutumiers et religieux proposent des pistes de solutions",
+      "date": "2020-01-13",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.000738154455336508,
+        0.21635478044139606,
+        0.7814307788773751,
+        0.000738121421980339,
+        0.0007381648039122794
+      ]
+    },
+    {
+      "id": 273,
+      "title": "Paix au Burkina Faso : autorités coutumières et religieuses en tandem",
+      "date": "2020-01-12",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0012272338530324735,
+        0.0012273642606951114,
+        0.9950909921055358,
+        0.0012271804319269974,
+        0.0012272293488099209
+      ]
+    },
+    {
+      "id": 274,
+      "title": "Capture du dividende démographie : les leaders musulmans, prêts à jouer leur partition",
+      "date": "2020-01-31",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0014189145376333008,
+        0.0014188953507330035,
+        0.994324468986909,
+        0.0014187810259267913,
+        0.0014189400987977864
+      ]
+    },
+    {
+      "id": 275,
+      "title": "Le PAN à la FAIB",
+      "date": "2020-03-04",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.4980597427002661,
+        0.0017702210622116128,
+        0.4966292179093734,
+        0.0017702285307883848,
+        0.0017705897973604426
+      ]
+    },
+    {
+      "id": 276,
+      "title": "Suspension des prières dans les mosquées : les victimes collatérales entre compréhension et désarroi",
+      "date": "2020-03-29",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0009219232088917527,
+        0.4035031333468145,
+        0.0009219052411179461,
+        0.0009219980145298727,
+        0.5937310401886459
+      ]
+    },
+    {
+      "id": 277,
+      "title": "Ouverture des mosquées : les 15 piliers de la FAIB",
+      "date": "2020-04-23",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.1063916059793907,
+        0.1992751984134228,
+        0.0007493078510933162,
+        0.0007492689963077391,
+        0.6928346187597854
+      ]
+    },
+    {
+      "id": 278,
+      "title": "Islam et coronavirus : « Aucun hadith ne fixe la distance entre les fidèles » (Ismaël Tiendrébéogo, imam au CERFI et à l’AEEMB)",
+      "date": "2020-05-05",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0006874423141305188,
+        0.4599971617566945,
+        0.000687468162932704,
+        0.0006875258178935885,
+        0.5379404019483487
+      ]
+    },
+    {
+      "id": 279,
+      "title": "Fermeture des lieux de culte : réouverture des mosquées le couteau sur la gorge",
+      "date": "2020-05-03",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.12409309238559323,
+        0.0010053474155432421,
+        0.001005275511567403,
+        0.0010052894496364213,
+        0.8728909952376597
+      ]
+    },
+    {
+      "id": 280,
+      "title": "Réouverture des lieux de culte : le REJCOM/BF appelle à la compréhension mutuelle",
+      "date": "2020-05-07",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0016533895045199925,
+        0.5827668049719451,
+        0.0016533000248251785,
+        0.0016530977976789002,
+        0.41227340770103094
+      ]
+    },
+    {
+      "id": 281,
+      "title": "Le coin du jeûneur : la dernière ligne droite",
+      "date": "2020-05-13",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.002469869228184947,
+        0.7717859232972147,
+        0.0024695965856865345,
+        0.002470086530547431,
+        0.22080452435836634
+      ]
+    },
+    {
+      "id": 282,
+      "title": "Propos sur les mosquées : les regrets du ministre Dandjinou",
+      "date": "2020-05-17",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0016004025961804521,
+        0.0016003361184115817,
+        0.3503229663525901,
+        0.0016002618633599887,
+        0.644876033069458
+      ]
+    },
+    {
+      "id": 283,
+      "title": "Communauté musulmane : encore un congrès de la discorde",
+      "date": "2020-08-13",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.8166603046246689,
+        0.0004989178054330475,
+        0.0004988989760722817,
+        0.0004988656593325448,
+        0.18184301293449326
+      ]
+    },
+    {
+      "id": 284,
+      "title": "Prise en compte de la religion traditionnelle dans l’ONAFAR : chapeau bas au gouvernement mais…",
+      "date": "2020-08-10",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000673645127694298,
+        0.0006735286556546616,
+        0.9614560414383181,
+        0.0006735223032237691,
+        0.03652326247510904
+      ]
+    },
+    {
+      "id": 285,
+      "title": "Assassinat de l'imam de Djibo : réactions et condamnations tous azimuts",
+      "date": "2020-08-17",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0006351080797155733,
+        0.3160372196519543,
+        0.5430317515112211,
+        0.0006350705936207956,
+        0.1396608501634883
+      ]
+    },
+    {
+      "id": 286,
+      "title": "Abdoul Rasmane Sana, président de la Communauté musulmane : \"Si le congrès se tient, il n'y aura plus de crise\"",
+      "date": "2020-09-03",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.46999581574131366,
+        0.06871458616154182,
+        0.0006970302238265572,
+        0.0006970292727158715,
+        0.4598955386006021
+      ]
+    },
+    {
+      "id": 287,
+      "title": "Retrait du terrain querellé à Pazani",
+      "date": "2020-10-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.2067208388155476,
+        0.0018698226821213628,
+        0.0018698173616692937,
+        0.001869481306427259,
+        0.7876700398342344
+      ]
+    },
+    {
+      "id": 288,
+      "title": "Destruction d'une mosquée à Panzani : la jeunesse musulmane lance une fatwa contre un huissier de justice",
+      "date": "2020-09-17",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0019423360718223979,
+        0.0019423556290957323,
+        0.0019422648685066262,
+        0.053922453187237235,
+        0.940250590243338
+      ]
+    },
+    {
+      "id": 289,
+      "title": "Mosquée détruite à Pazani : la version de l'huissier",
+      "date": "2020-09-20",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0007606819185698045,
+        0.0007606227478421203,
+        0.07249615848192284,
+        0.0007606187704678709,
+        0.9252219180811974
+      ]
+    },
+    {
+      "id": 290,
+      "title": "Communauté musulmane du Burkina : voici la lettre qui autorise l'installation de Oumarou Kouanda comme président de Transition",
+      "date": "2021-04-20",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.6631655172435742,
+        0.0005142298082651811,
+        0.0005142413026829196,
+        0.0005142633997121686,
+        0.3352917482457654
+      ]
+    },
+    {
+      "id": 291,
+      "title": "Fédération des Associations islamiques du Burkina : le président du Faso assiste à l'ouverture du deuxième congrès ce matin",
+      "date": "2021-08-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.5453021471146298,
+        0.0021510462557386527,
+        0.44824490993768035,
+        0.0021508595841852607,
+        0.002151037107766011
+      ]
+    },
+    {
+      "id": 292,
+      "title": "Fédération des associations islamiques du Burkina : Adama Sakandé, nouveau secrétaire exécutif national",
+      "date": "2021-08-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.7833721575077565,
+        0.0006735488663590848,
+        0.21460720726273935,
+        0.0006735398235677242,
+        0.0006735465395774462
+      ]
+    },
+    {
+      "id": 293,
+      "title": "Sortie porte-parole du gouvernement sur les mosquées : \"Ce sont des propos qui n'apaisent pas le climat social\" (El hadj Abdoul Aziz Rouamba)",
+      "date": "2020-05-14",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.18886635604908214,
+        0.06112029949357219,
+        0.1294818001101362,
+        0.0010474250609405196,
+        0.6194841192862689
+      ]
+    },
+    {
+      "id": 294,
+      "title": "Hamoudou Kaboré, président de la CJMB : \"Ce qui s'est passé le 2 mai à la FAIB, était plutôt une visite et non une manifestation\"",
+      "date": "2020-05-15",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0013609837624527644,
+        0.20722312061632514,
+        0.001360994633804329,
+        0.0013608759683055682,
+        0.7886940250191122
+      ]
+    },
+    {
+      "id": 295,
+      "title": "Crise au sein de la Communauté musulmane : la CJMB joue les bons offices",
+      "date": "2020-07-15",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.7968446044986337,
+        0.11780237109442616,
+        0.0012125493126803135,
+        0.0012123606135691816,
+        0.08292811448069067
+      ]
+    },
+    {
+      "id": 296,
+      "title": "Crise au sein de la communauté musulmane : des positions difficiles à concilier",
+      "date": "2020-07-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9008688909144008,
+        0.0012905278808614917,
+        0.001290730175909083,
+        0.0012905919379390372,
+        0.09525925909088977
+      ]
+    },
+    {
+      "id": 297,
+      "title": "La Tabaski : sacrifice et devoir de solidarité au menu du sermon de l'imam Nombré",
+      "date": "2006-01-25",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.0014392645179145465,
+        0.8798037642104366,
+        0.11587862582030498,
+        0.0014391028517539187,
+        0.0014392425995898618
+      ]
+    },
+    {
+      "id": 298,
+      "title": "Tabaski : le cafouillage dans l'organisation du hadj s'est invité au sermon",
+      "date": "2007-12-25",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.0010474055392169135,
+        0.7718041556135568,
+        0.0010473345658853351,
+        0.22505363851105561,
+        0.001047465770285394
+      ]
+    },
+    {
+      "id": 299,
+      "title": "Sénat : combien coûte un musulman ?",
+      "date": "2013-09-30",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.10488555160760196,
+        0.0008735324272239155,
+        0.7393916662714355,
+        0.153975631571578,
+        0.0008736181221606008
+      ]
+    },
+    {
+      "id": 300,
+      "title": "Fédération des Associations Islamiques du Burkina : la structure élargit ses horizons",
+      "date": "2006-09-10",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.7646964673856074,
+        0.0017705193664136819,
+        0.08366984893770264,
+        0.14809265000479022,
+        0.0017705143054862257
+      ]
+    },
+    {
+      "id": 301,
+      "title": "CIMEF : les musulmans francophones se rencontrent à Ouaga",
+      "date": "2006-07-25",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.8654935073247805,
+        0.1291951879912246,
+        0.001770411968150866,
+        0.0017705195905658043,
+        0.001770373125278272
+      ]
+    },
+    {
+      "id": 302,
+      "title": "Prêches, attention à la radicalité du discours !",
+      "date": "2018-04-25",
+      "publisher": "L'Evénement",
+      "topic_weights": [
+        0.001418784427254153,
+        0.1955031430181143,
+        0.7358125999163931,
+        0.001418749850338411,
+        0.06584672278790002
+      ]
+    },
+    {
+      "id": 303,
+      "title": "Lutte contre le terrorisme : « C’est une affaire de tous les êtres humains qui sont contre tout ce qui est terreur »",
+      "date": "2018-03-19",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.16603576325930425,
+        0.001550727592522197,
+        0.7860907126739218,
+        0.0015505915653094662,
+        0.04477220490894218
+      ]
+    },
+    {
+      "id": 304,
+      "title": "Liberté religieuse : après le retrait du projet de loi, la FAIB est satisfaite et le dit à Roch Kaboré",
+      "date": "2017-01-17",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.001183725628776159,
+        0.001183657824441928,
+        0.9952650785941632,
+        0.0011836819242557043,
+        0.001183856028363069
+      ]
+    },
+    {
+      "id": 305,
+      "title": "5e RGPH : le Minéfid sollicite les prières et l’accompagnement des Eglises évangéliques et des Associations islamiques",
+      "date": "2019-10-28",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0012582056200857888,
+        0.0012581694156353642,
+        0.49827223138513616,
+        0.07236286454234987,
+        0.42684852903679293
+      ]
+    },
+    {
+      "id": 306,
+      "title": "Burkina : le Maouloud célébré dans la nuit du samedi 9 au dimanche 10 novembre",
+      "date": "2019-11-04",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0051293281332973825,
+        0.7722340552268029,
+        0.005129382068754369,
+        0.005128964323057392,
+        0.21237827024808795
+      ]
+    },
+    {
+      "id": 307,
+      "title": "Coronavirus : la Fédération des associations islamiques du Burkina suspend les prières à partir de ce vendredi",
+      "date": "2020-03-19",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0032798597795317976,
+        0.2446691638774653,
+        0.003279634034146466,
+        0.0032791917995590022,
+        0.7454921505092974
+      ]
+    },
+    {
+      "id": 308,
+      "title": "Pèlerinage à la Mecque : le nouveau comité national de suivi installé",
+      "date": "2018-03-20",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0014188538220161226,
+        0.0014185851756067741,
+        0.0014186400526250808,
+        0.9943251262208024,
+        0.0014187947289495857
+      ]
+    },
+    {
+      "id": 309,
+      "title": "Attribution d'un terrain à la FAIB : \"Un grave précédent pour un pays qui se veut un Etat de droit\", selon les syndicats des magistrats",
+      "date": "2021-05-08",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0009134692388120839,
+        0.0009133772950162927,
+        0.0009135261904042617,
+        0.0009133970895513373,
+        0.996346230186216
+      ]
+    },
+    {
+      "id": 310,
+      "title": "Promotion de la paix : Pengdwendé Clément Sawadogo salue l'inestimable contribution de la Ligue des Oulémas, Prêcheurs et Imams du Sahel",
+      "date": "2021-07-05",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0013990615935459598,
+        0.1485780419573811,
+        0.4204320817692776,
+        0.001399037556369225,
+        0.4281917771234262
+      ]
+    },
+    {
+      "id": 311,
+      "title": "\"Sécurité islamique\" à Pouytenga : «Elle n'est pas armée et n'a pas vocation à être un groupe d'autodéfense»",
+      "date": "2018-03-27",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0016533537690941597,
+        0.0016531861148826282,
+        0.0016533013828559575,
+        0.001653358884764467,
+        0.9933867998484027
+      ]
+    },
+    {
+      "id": 312,
+      "title": "L'Aîd El Fitr sera célébrée ce vendredi 17 juillet 2015",
+      "date": "2015-07-16",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0021984141033482094,
+        0.9912070959295701,
+        0.0021983030904593284,
+        0.0021980517863435856,
+        0.002198135090278755
+      ]
+    },
+    {
+      "id": 313,
+      "title": "Ramadan 2015 : la Commission nationale d'observation de la lune siégera ce jeudi 16 juillet 2015",
+      "date": "2015-07-15",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0037748255809503264,
+        0.9849015439749776,
+        0.0037747741180706408,
+        0.0037741176581083118,
+        0.0037747386678930795
+      ]
+    },
+    {
+      "id": 314,
+      "title": "Organisation du Hadj : «Hors de question de continuer à exposer nos compatriotes à la risée du monde»",
+      "date": "2012-11-08",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0008812733573822974,
+        0.31847385495957375,
+        0.13886835586164084,
+        0.5408952286515303,
+        0.0008812871698727349
+      ]
+    },
+    {
+      "id": 315,
+      "title": "Attaque du restaurant Aziz Istanbul : les associations islamiques apportent leur soutien aux blessés",
+      "date": "2017-08-15",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.4477761587250381,
+        0.22971063561715918,
+        0.3190933346067677,
+        0.0017099626827357028,
+        0.0017099083682993298
+      ]
+    },
+    {
+      "id": 316,
+      "title": "Loi sur les libertés religieuses : pour l'UPC, les préoccupations des ulémas sont fondées",
+      "date": "2017-01-12",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0011978402066861015,
+        0.0011977459692876396,
+        0.8930010261671849,
+        0.0011977017572395278,
+        0.10340568589960189
+      ]
+    },
+    {
+      "id": 317,
+      "title": "Projet de loi sur les libertés religieuses : Simon Compaoré face aux associations islamiques",
+      "date": "2017-01-09",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.003774095546282878,
+        0.0037739594961854754,
+        0.8827789637128951,
+        0.0037739883627893375,
+        0.10589899288184723
+      ]
+    },
+    {
+      "id": 318,
+      "title": "Hadj 2013 : un site Web pour des informations en temps réel",
+      "date": "2013-08-30",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.14112988472725835,
+        0.0010931147125484413,
+        0.001093135048416593,
+        0.8555907096212412,
+        0.0010931558905353115
+      ]
+    },
+    {
+      "id": 319,
+      "title": "Hadj 2016 : le pèlerinage « sans retour » de Madi Kanazoé",
+      "date": "2016-09-16",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.6156543297311653,
+        0.0048796029470448464,
+        0.00487887595344257,
+        0.3697075713247946,
+        0.004879620043552658
+      ]
+    },
+    {
+      "id": 320,
+      "title": "Tabaski 2016 : la fête aura lieu le 12 septembre",
+      "date": "2016-09-06",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.41923688115526975,
+        0.5744455105578959,
+        0.0021059285465148347,
+        0.002105735185182301,
+        0.0021059445551372294
+      ]
+    },
+    {
+      "id": 321,
+      "title": "Le Ramadan commence ce mardi 7 juin",
+      "date": "2016-06-06",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.2141765231519269,
+        0.7806943389418619,
+        0.0017097808472842184,
+        0.001709663159101778,
+        0.001709693899825277
+      ]
+    },
+    {
+      "id": 322,
+      "title": "Sénat : «Les musulmans y trouvent leur intérêt»",
+      "date": "2013-09-15",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.0006735891939795955,
+        0.0006736075160623045,
+        0.9973057119937162,
+        0.0006735663966945925,
+        0.0006735248995472326
+      ]
+    },
+    {
+      "id": 323,
+      "title": "La fête du Maouloud célébrée le vendredi 25 janvier",
+      "date": "2013-01-22",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.11411645634688534,
+        0.8780896359897782,
+        0.0025982397405776873,
+        0.0025977147932176935,
+        0.0025979531295408976
+      ]
+    },
+    {
+      "id": 324,
+      "title": "Législatives/Municipales 2012 : la communauté musulmane prête à jouer sa partition",
+      "date": "2012-02-22",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.003390871664723803,
+        0.3644507172520061,
+        0.625377454517477,
+        0.00339042419668502,
+        0.0033905323691081563
+      ]
+    },
+    {
+      "id": 325,
+      "title": "L'Aïd el-fitr célébré ce 30 août",
+      "date": "2011-08-29",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.14764623611835534,
+        0.8441330462809526,
+        0.0027403943278687297,
+        0.0027400992181143774,
+        0.0027402240547088176
+      ]
+    },
+    {
+      "id": 326,
+      "title": "Tabaski : il y a moutons et moutons",
+      "date": "2010-11-11",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.00425613897838998,
+        0.860066675191876,
+        0.06767195977456665,
+        0.06374906018650638,
+        0.004256165868661148
+      ]
+    },
+    {
+      "id": 327,
+      "title": "Ramadan 2014 : début de la recherche du croissant lunaire",
+      "date": "2014-06-26",
+      "publisher": "FasoZine",
+      "topic_weights": [
+        0.2796476529029884,
+        0.7129432268841964,
+        0.0024696121331513167,
+        0.002469578384541557,
+        0.002469929695122482
+      ]
+    },
+    {
+      "id": 328,
+      "title": "Hadj 2015 : les premiers \"El Hadj\" et \"Hadja\" de retour au Burkina",
+      "date": "2015-10-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.001379629126752894,
+        0.0013795823474454549,
+        0.0013795142444494122,
+        0.8606045386414108,
+        0.13525673563994128
+      ]
+    },
+    {
+      "id": 329,
+      "title": "Hadj 2016 : 5 500 pèlerins au départ, 5 décédés au final",
+      "date": "2016-10-17",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.0016263915624489503,
+        0.0016264702185017257,
+        0.0016265274226040058,
+        0.9934940421874905,
+        0.0016265686089547181
+      ]
+    },
+    {
+      "id": 330,
+      "title": "Attaque terroriste du 13 aout : la Fédération des associations islamiques du Burkina au chevet des blessés",
+      "date": "2017-08-16",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.36076423636495847,
+        0.11777528437137978,
+        0.5191476412568291,
+        0.0011564017424067694,
+        0.0011564362644258747
+      ]
+    },
+    {
+      "id": 331,
+      "title": "Sermon de la prière et de la fête de Ramadan : Allahou akbar Allahou akbar Allahou akbar",
+      "date": "2018-06-15",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00041938552761911933,
+        0.9983223272851324,
+        0.00041939713302826897,
+        0.00041949927321935875,
+        0.00041939078100082506
+      ]
+    },
+    {
+      "id": 332,
+      "title": "De la laïcité béate à l'athéisme d'Etat au Burkina Faso",
+      "date": "2018-06-17",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.00019179629896194902,
+        0.00019181339646158103,
+        0.7346516013913024,
+        0.15149981214025715,
+        0.11346497677301705
+      ]
+    },
+    {
+      "id": 333,
+      "title": "Le coin du jeûneur 11 : la communauté islamique dans sa diversité",
+      "date": "2015-07-01",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0009135199085961123,
+        0.827831543255501,
+        0.04931670438431225,
+        0.12102467823204235,
+        0.0009135542195483552
+      ]
+    },
+    {
+      "id": 334,
+      "title": "Jean-Baptiste Sanou, président de l'Observatoire national des faits religieux : \"Il doit y avoir des cellules dormantes ici... \"",
+      "date": "2016-01-28",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0006232439423250597,
+        0.0006232491130299147,
+        0.7549432924222307,
+        0.0006232599397046798,
+        0.2431869545827096
+      ]
+    },
+    {
+      "id": 335,
+      "title": "Situation nationale au Burkina : une journée de prière avec Cheick Mahamoudou Bandé pour exorciser les démons",
+      "date": "2019-02-18",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0007549008900354828,
+        0.520303716642198,
+        0.35159794117235477,
+        0.0007549032128250768,
+        0.12658853808258677
+      ]
+    },
+    {
+      "id": 336,
+      "title": "Religion : la fête de la Tabaski sera célébrée le vendredi 31 juillet 2020",
+      "date": "2020-07-21",
+      "publisher": "LeFaso.net",
+      "topic_weights": [
+        0.013335638479939977,
+        0.946656719213935,
+        0.013335159588292777,
+        0.013334659946376162,
+        0.013337822771456042
+      ]
+    },
+    {
+      "id": 337,
+      "title": "Les règles du jeûne",
+      "date": "2015-06-17",
+      "publisher": "L'Observateur Paalga",
+      "topic_weights": [
+        0.0010697220513022853,
+        0.9957213042814391,
+        0.0010696530942962694,
+        0.00106961471965219,
+        0.001069705853310001
+      ]
+    },
+    {
+      "id": 338,
+      "title": "Jeûnes surérogatoires : les fidèles musulmans fixés sur les dates",
+      "date": "2018-04-19",
+      "publisher": "Le Pays",
+      "topic_weights": [
+        0.0028994796566204264,
+        0.9884035619025894,
+        0.002898909040017743,
+        0.0028989560328968986,
+        0.002899093367875439
+      ]
+    },
+    {
+      "id": 339,
+      "title": "\"Rencontre des cadres musulmans\" 2023 : relever les défis nationaux",
+      "date": "2023-10-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.8739702700586206,
+        0.0009135830572121231,
+        0.12328924613152586,
+        0.00091346667404381,
+        0.0009134340785976247
+      ]
+    },
+    {
+      "id": 340,
+      "title": "Leadership et entrepreneuriat : la jeunesse musulmane renforce ses capacités",
+      "date": "2022-10-30",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9926585444801057,
+        0.001835382151458456,
+        0.0018353631526719701,
+        0.0018353828912333599,
+        0.0018353273245304046
+      ]
+    },
+    {
+      "id": 341,
+      "title": "Paix au Burkina : les musulmans implorent la miséricorde d’Allah",
+      "date": "2022-04-18",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.025925712729850687,
+        0.37975291328475325,
+        0.34274566865224676,
+        0.0010813552730697567,
+        0.2504943500600795
+      ]
+    },
+    {
+      "id": 342,
+      "title": "Réconciliation nationale : Zéphirin Diabré sollicite le soutien de la communauté musulmane",
+      "date": "2021-01-21",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0008300973963964195,
+        0.0008301424244030072,
+        0.9966794860430264,
+        0.0008300592331071739,
+        0.0008302149030670058
+      ]
+    },
+    {
+      "id": 343,
+      "title": "Crise au sein de la communauté musulmane : des positions difficiles à concilier",
+      "date": "2020-07-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9008688909144008,
+        0.0012905278808614917,
+        0.001290730175909083,
+        0.0012905919379390372,
+        0.09525925909088977
+      ]
+    },
+    {
+      "id": 344,
+      "title": "Capture du dividende démographie : les leaders musulmans, prêts à jouer leur partition",
+      "date": "2020-01-31",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0014189145376333008,
+        0.0014188953507330035,
+        0.994324468986909,
+        0.0014187810259267913,
+        0.0014189400987977864
+      ]
+    },
+    {
+      "id": 345,
+      "title": "Ramadan : les musulmans réaffirment leur attachement à la cohésion sociale",
+      "date": "2019-05-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010258550431394764,
+        0.3161152374653309,
+        0.6808071907917388,
+        0.001025782666446674,
+        0.0010259340333440598
+      ]
+    },
+    {
+      "id": 346,
+      "title": "S’unir pour triompher",
+      "date": "2024-10-27",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.001307452771147305,
+        0.0013076245677277668,
+        0.8204503847089271,
+        0.0013074521635660285,
+        0.17562708578863181
+      ]
+    },
+    {
+      "id": 347,
+      "title": "Déviations dangereuses dans le discours religieux : la FAIB et le collège des Oulémas invitent les populations à s’en départir",
+      "date": "2024-10-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.22340112221858732,
+        0.19863892028766164,
+        0.32792760319846315,
+        0.0017703055986193201,
+        0.24826204869666862
+      ]
+    },
+    {
+      "id": 348,
+      "title": "Promotion du dialogue social : la FAIB réafirme son engagement",
+      "date": "2024-10-20",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013989388455413227,
+        0.0013988665017932505,
+        0.8053013544350315,
+        0.0013989048468231327,
+        0.19050193537081078
+      ]
+    },
+    {
+      "id": 349,
+      "title": "Tolérance religieuse : un catalyseur de la cohésion sociale au Centre-Nord",
+      "date": "2024-07-30",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.00033510772214127496,
+        0.4161029877876281,
+        0.37463349877972313,
+        0.05184630994583533,
+        0.15708209576467216
+      ]
+    },
+    {
+      "id": 350,
+      "title": "Hadj 2024 : 430 pèlerins décollent pour la Mecque",
+      "date": "2024-05-23",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0007019166028543159,
+        0.048524562225305046,
+        0.0007018913330146258,
+        0.9493697173661099,
+        0.0007019124727162711
+      ]
+    },
+    {
+      "id": 351,
+      "title": "Hadj 2024 : environ 430 Pèlerins Burkinabé pour le Vol Inaugural",
+      "date": "2024-05-23",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0007221966504546197,
+        0.07196539022241563,
+        0.0007222012354219869,
+        0.9258680394153835,
+        0.000722172476324271
+      ]
+    },
+    {
+      "id": 352,
+      "title": "Hadj 2024 : derniers \"réglages\" avant le premier vol",
+      "date": "2024-05-22",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010474792808566088,
+        0.001047456298815282,
+        0.001047455421776705,
+        0.9958101243006017,
+        0.0010474846979498026
+      ]
+    },
+    {
+      "id": 353,
+      "title": "Don de l’Arabie Saoudite au Burkina : cinq tonnes de datte alimentaire pour soutenir des PDI",
+      "date": "2024-05-20",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0014392074420574964,
+        0.11070395401859667,
+        0.07631448660522261,
+        0.6082570955043655,
+        0.20328525642975775
+      ]
+    },
+    {
+      "id": 354,
+      "title": "Ramadan 2024 : la Chine remet des vivres à la FAIB",
+      "date": "2024-04-08",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0014818442154975004,
+        0.7279765186947488,
+        0.26757808284209206,
+        0.0014817953021520464,
+        0.0014817589455097364
+      ]
+    },
+    {
+      "id": 355,
+      "title": "Jeûne de Ramadan : \"En ce mois, la charité est très recommandée\", imam Nouhoun Bakayogo",
+      "date": "2024-03-11",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000498835295701876,
+        0.9980046775719367,
+        0.000498841728268951,
+        0.0004988122272244622,
+        0.0004988331768680231
+      ]
+    },
+    {
+      "id": 356,
+      "title": "Gestion de la crise sécuritaire : le Centre-Nord sur la voie des mécanismes endogènes",
+      "date": "2023-11-30",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0003914810935641393,
+        0.20611448540133237,
+        0.7254670110613084,
+        0.0003914646329712552,
+        0.06763555781082381
+      ]
+    },
+    {
+      "id": 357,
+      "title": "Construction de la paix et la cohésion sociale à l’Est : le président de l’ALT, Ousmane Bougouma, mobilise les religieux",
+      "date": "2023-08-27",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010812962175381466,
+        0.0010813939761230137,
+        0.9956746961287585,
+        0.001081251898771976,
+        0.0010813617788084165
+      ]
+    },
+    {
+      "id": 358,
+      "title": "Hadj 2023 : 430 pèlerins de retour à Ouagadougou",
+      "date": "2023-07-06",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0012124832503382767,
+        0.19847571537202405,
+        0.0012124094818341583,
+        0.7978870318036791,
+        0.0012123600921243069
+      ]
+    },
+    {
+      "id": 359,
+      "title": "Hadj 2023 : 430 pèlerins burkinabè pour le vol inaugural",
+      "date": "2023-06-03",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010365182518025215,
+        0.0010365989097878567,
+        0.001036599609177259,
+        0.9958536381285299,
+        0.0010366451007025824
+      ]
+    },
+    {
+      "id": 360,
+      "title": "Fête de l’Aïd el Fitr : la FAIB présente ses vœux à l’ambassadeur saoudien",
+      "date": "2023-05-08",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.14377113912987405,
+        0.27953555171261874,
+        0.1353099191386419,
+        0.4395136842446649,
+        0.001869705774200386
+      ]
+    },
+    {
+      "id": 361,
+      "title": "Ramadan : les prières nocturnes suspendues au Centre-Nord",
+      "date": "2023-04-11",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.003637730338097527,
+        0.2614252122694242,
+        0.003637411116851837,
+        0.003636791260693121,
+        0.7276628550149333
+      ]
+    },
+    {
+      "id": 362,
+      "title": "Fédération des associations islamiques du Burkina : le nouveau président, Oumarou Zoungrana, installé",
+      "date": "2023-01-05",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9922314034245365,
+        0.001942071860700817,
+        0.001942205595017342,
+        0.0019421788964829256,
+        0.0019421402232623298
+      ]
+    },
+    {
+      "id": 363,
+      "title": "Assemblée législative de Transition : le président Bougouma se confie aux coutumiers et religieux de Sya",
+      "date": "2022-12-13",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0015270848228997847,
+        0.001527222782535855,
+        0.993891687833007,
+        0.001526938415752052,
+        0.0015270661458055238
+      ]
+    },
+    {
+      "id": 364,
+      "title": "Assemblée législative de Transition : une délégation au siège de la FAIB",
+      "date": "2022-12-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.1849437430775304,
+        0.0017097621348774851,
+        0.8099271588633646,
+        0.001709631447788721,
+        0.001709704476438778
+      ]
+    },
+    {
+      "id": 365,
+      "title": "Discours islamique dans un contexte d’insécurité : plus de 700 imams et prédicateurs outillés",
+      "date": "2022-08-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.35521596749592366,
+        0.0014392671086364058,
+        0.6404662356446718,
+        0.001439280982412984,
+        0.0014392487683551798
+      ]
+    },
+    {
+      "id": 366,
+      "title": "Affaire \"prêche radical\" de Gon-Boussougou : le ministre Sourwéma présente ses excuses",
+      "date": "2022-07-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0015752524830599534,
+        0.0015753429690898238,
+        0.6625218039004268,
+        0.001575184969077198,
+        0.33275241567834635
+      ]
+    },
+    {
+      "id": 367,
+      "title": "Solidarité nationale : les organisations religieuses et coutumières promettent de s’engager",
+      "date": "2022-07-12",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000590144837237031,
+        0.3696533730343489,
+        0.4903565160613819,
+        0.0005901715205211783,
+        0.13880979454651093
+      ]
+    },
+    {
+      "id": 368,
+      "title": "Tabaski : la fête aura lieu le samedi 09 juillet prochain",
+      "date": "2022-06-30",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.011769252154018207,
+        0.95292362215611,
+        0.011768671489606225,
+        0.011766508056443279,
+        0.01177194614382231
+      ]
+    },
+    {
+      "id": 369,
+      "title": "Coopération Burkina Faso/Maroc : l’ambassadeur du Maroc honore des oulémas et cheikhs",
+      "date": "2022-04-25",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.9890390640481541,
+        0.0027402184037043733,
+        0.002740589793889969,
+        0.002740024160087269,
+        0.002740103594164406
+      ]
+    },
+    {
+      "id": 370,
+      "title": "Maquis et bars vandalisés à Béguédo : l’ex-maire et un muezzin parmi les interpellés",
+      "date": "2022-04-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0014603150480686049,
+        0.0014603845009171523,
+        0.49661423965352913,
+        0.0014603399904164751,
+        0.4990047208070687
+      ]
+    },
+    {
+      "id": 371,
+      "title": "Fédération des associations islamiques du Burkina : Adama Sakandé, nouveau secrétaire exécutif national",
+      "date": "2021-08-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.7833721575077565,
+        0.0006735488663590848,
+        0.21460720726273935,
+        0.0006735398235677242,
+        0.0006735465395774462
+      ]
+    },
+    {
+      "id": 372,
+      "title": "Fédération des Associations islamiques du Burkina : le président du Faso assiste à l’ouverture du deuxième congrès ce matin",
+      "date": "2021-08-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.5453021471146298,
+        0.0021510462557386527,
+        0.44824490993768035,
+        0.0021508595841852607,
+        0.002151037107766011
+      ]
+    },
+    {
+      "id": 373,
+      "title": "Tabaski 2021 : \"Le sacrifice du mouton, un acte de dévotion à Allah\", Hatimi Démé, FAIB",
+      "date": "2021-07-18",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0005511292619385177,
+        0.8518646502023511,
+        0.0005511094647548913,
+        0.1464819693412423,
+        0.0005511417297131707
+      ]
+    },
+    {
+      "id": 374,
+      "title": "Affaire Pazani : \"Nous avons rendu officielle une décision concertée\", ministre Clément Sawadogo",
+      "date": "2021-05-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0013247448848809943,
+        0.0013246806493435234,
+        0.001324909124771407,
+        0.0013248623831248326,
+        0.9947008029578793
+      ]
+    },
+    {
+      "id": 375,
+      "title": "Affaire Pazanni : les éclairages du ministre d’Etat",
+      "date": "2021-05-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0011978535166591768,
+        0.0011978951411441838,
+        0.0011980372325548945,
+        0.0011978215090088788,
+        0.9952083926006329
+      ]
+    },
+    {
+      "id": 376,
+      "title": "Réconciliation nationale : Zéphirin Diabré se confie à l’Eglise",
+      "date": "2021-01-25",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.08065905023898644,
+        0.0015508440141664857,
+        0.9146884666350222,
+        0.0015507562036160948,
+        0.0015508829082086684
+      ]
+    },
+    {
+      "id": 377,
+      "title": "Retrait du terrain querellé à Pazani",
+      "date": "2020-10-07",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.2067208388155476,
+        0.0018698226821213628,
+        0.0018698173616692937,
+        0.001869481306427259,
+        0.7876700398342344
+      ]
+    },
+    {
+      "id": 378,
+      "title": "Prise en compte de la religion traditionnelle dans l’ONAFAR : chapeau bas au gouvernement mais…",
+      "date": "2020-08-10",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000673645127694298,
+        0.0006735286556546616,
+        0.9614560414383181,
+        0.0006735223032237691,
+        0.03652326247510904
+      ]
+    },
+    {
+      "id": 379,
+      "title": "Début du jeûne du mois de ramadan",
+      "date": "2020-04-23",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.006063055623860408,
+        0.9757506907406603,
+        0.00606266203923165,
+        0.006061298412022006,
+        0.00606229318422567
+      ]
+    },
+    {
+      "id": 380,
+      "title": "Le croissant lunaire en observation ce jeudi",
+      "date": "2020-04-22",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0032793020108286513,
+        0.8360326976326047,
+        0.0032791375734228826,
+        0.0032790772507319587,
+        0.15412978553241174
+      ]
+    },
+    {
+      "id": 381,
+      "title": "Soutien à l’action gouvernementale : \"Douas\" et onction pour Christophe Dabiré",
+      "date": "2019-02-28",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0011431552780944822,
+        0.0011432143874022577,
+        0.8452578063007116,
+        0.0011431800545838979,
+        0.15131264397920782
+      ]
+    },
+    {
+      "id": 382,
+      "title": "Hadj 2024 : 432 premiers pèlerins de retour",
+      "date": "2024-06-26",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0015041701364030976,
+        0.41303821330121576,
+        0.0015040973828305037,
+        0.5824492601638139,
+        0.0015042590157367754
+      ]
+    },
+    {
+      "id": 383,
+      "title": "Campagne de chirurgie cardiaque au Burkina : l'Arabie Saoudite offre gratuitement des soins à 24 patients",
+      "date": "2024-05-20",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.002105719650843933,
+        0.0021058190577602763,
+        0.0021062559526246034,
+        0.9915762568318428,
+        0.0021059485069283954
+      ]
+    },
+    {
+      "id": 384,
+      "title": "Ramadan : la fête aura lieu le mercredi 10 avril 2024",
+      "date": "2024-04-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.015386125883800185,
+        0.3918893344203222,
+        0.015385591076326657,
+        0.015385567431035708,
+        0.5619533811885153
+      ]
+    },
+    {
+      "id": 385,
+      "title": "Burkina : la Tabaski sera célébrée le 28 juin prochain",
+      "date": "2023-06-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.009526315670027664,
+        0.5228000011046731,
+        0.009525587271803502,
+        0.009525145847873635,
+        0.44862295010562203
+      ]
+    },
+    {
+      "id": 386,
+      "title": "Rupture collective de jeûne : la FAIB prie pour la consolidation de la paix",
+      "date": "2023-04-05",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.2787644020819394,
+        0.35214046132472915,
+        0.13831312182073463,
+        0.00198072375329156,
+        0.22880129101930527
+      ]
+    },
+    {
+      "id": 387,
+      "title": "Situation nationale : la FAIB invitée à prôner la paix dans les prêches",
+      "date": "2023-01-24",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.15093819920534524,
+        0.0016263308525571575,
+        0.7944894800763097,
+        0.001626504893967754,
+        0.05131948497182017
+      ]
+    },
+    {
+      "id": 388,
+      "title": "Hadj 2022 : le premier vol prévu pour le 21 juin prochain",
+      "date": "2022-06-06",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0010473560880159168,
+        0.00104728024035287,
+        0.09861035464893303,
+        0.8982476665060818,
+        0.0010473425166164483
+      ]
+    },
+    {
+      "id": 389,
+      "title": "Décès de Assimi Kouanda : la dépouille rapatriée à Ouagadougou",
+      "date": "2021-06-08",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.5543466477632577,
+        0.10034397836598423,
+        0.3426941610922967,
+        0.0013075910830714845,
+        0.0013076216953898613
+      ]
+    },
+    {
+      "id": 390,
+      "title": "Vaccination contre la COVID-19 : les premières doses administrées",
+      "date": "2021-06-02",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0017100494774455288,
+        0.0017098030928038817,
+        0.5240526663064276,
+        0.2740208811510912,
+        0.19850659997223183
+      ]
+    },
+    {
+      "id": 391,
+      "title": "Affaire mosquée de Panzani : les magistrats dénoncent un \"grave précédent\"",
+      "date": "2021-05-09",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.000905184987208289,
+        0.0009050950324603616,
+        0.0009052577857740524,
+        0.0009051368259172428,
+        0.9963793253686402
+      ]
+    },
+    {
+      "id": 392,
+      "title": "Hadj 2019 : 300 premiers pèlerins regagnent Ouagadougou",
+      "date": "2019-08-19",
+      "publisher": "Sidwaya",
+      "topic_weights": [
+        0.0011836456606402832,
+        0.15975158873063783,
+        0.001183793893287184,
+        0.8366972821144603,
+        0.0011836896009743021
+      ]
+    }
+  ],
+  "model_metrics": {
+    "perplexity": 113.33530422588503,
+    "coherence": 0.0,
+    "topic_diversity": 0.76,
+    "vocabulary_size": 172,
+    "mean_term_tfidf": 0.01616304499717886,
+    "median_term_tfidf": 0.013142164036442104
+  },
+  "model_parameters": {
+    "n_topics": 5,
+    "doc_topic_prior": 0.1,
+    "topic_word_prior": 1.0,
+    "auto_tuned": true
+  }
+}
